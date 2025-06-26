@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -17,10 +17,362 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+ body {
+  /* background: var(--background);
+  color: var(--foreground); */
+  font-family: Arial, Helvetica, sans-serif;
+} 
+/* .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  width: 25%;
+  border-radius: 7px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+image{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 7px;
+}
+.type-price{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  padding: 3px;
+}
+.title{
+  font-weight: 900;
+}
+.features{
+  display: grid;
+  grid-row: 1fr 1fr;
+  gap: 3px;
+  padding: 2px;
+}
+.contact{
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  justify-content: space-evenly;
+} */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 2rem;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+.content {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.content:hover {
+  transform: translateY(-5px);
+}
+
+.image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.type-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+
+.title h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0 1rem;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+
+.location {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.view{
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #3dbdda;
+  transition: background-color 0.2s;
+}
+.agent{
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #3dbdda;
+  transition: background-color 0.2s;
+}
+.contact a{
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+} */  
+
+.container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maincont{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+  margin: 1px;
+  padding: 7px;
+  /* justify-content: flex-start; */
+}
+.container:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Content wrapper */
+.content {
+  position: relative;
+}
+
+/* Image styles */
+.image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.container:hover .image img {
+  transform: scale(1.05);
+}
+
+/* Type and Price container */
+.type-price {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.type {
+  background: #2563eb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.price {
+  background: white;
+  color: #1f2937;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.title h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Location */
+.location {
+  padding: 0 1rem 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* .location img {
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 6px;
+  filter: invert(0.5);
+} */
+
+/* Features container */
+.features {
+  padding: 0 1rem 1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.size, .beds, .bath, .parking {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* .size::before {
+  content: "📐 ";
+  margin-right: 4px;
+} */
+
+.beds::before {
+  content: "🛏️ ";
+  margin-right: 4px;
+}
+
+.bath::before {
+  content: "🚿 ";
+  margin-right: 4px;
+}
+
+.parking::before {
+  content: "🚗 ";
+  margin-right: 4px;
+}
+
+/* Contact buttons */
+.contact {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view, .agent {
+  flex: 1;
+}
+
+.view a, .agent a {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.view a {
+  background: #2563eb;
+  color: white;
+}
+
+.view a:hover {
+  background: #1d4ed8;
+}
+
+.agent a {
+  background: #f9fafb;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.agent a:hover {
+  background: #f3f4f6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+  }
+  
+  .title h1 {
+    font-size: 1.125rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  
+  .contact {
+    flex-direction: column;
+  }
+}
+
+/* Grid layout for multiple cards */
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .property-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem 0.5rem;
+  }
 }
