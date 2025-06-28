@@ -8,7 +8,7 @@ const Propertypage = () => {
     const [data,setdata] = useState([])
     useEffect(() => {
       let data = async()=>{
-        let property = await fetch("/propertydata.json")
+        let property = await fetch("http://localhost:5000/api/properties")
         let res = await property.json()
         console.log(res)
         setdata(prev=>[...prev,...res])
@@ -49,7 +49,7 @@ const Propertypage = () => {
             <div className="parking">{ele.parking?"available": "not available"}</div>
         </div>
         <div className="contact">
-            <div className="view"><Link href="/">view details</Link></div>
+            <div className="view"><Link href={`/propertydetail/${ele._id}`}>view details</Link></div>
             <div className="agent"><Link href="/">contact agent</Link></div>
         </div>
         </div>
