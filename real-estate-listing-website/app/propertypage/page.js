@@ -13,8 +13,8 @@ const Propertypage = () => {
       let property = await fetch("http://localhost:5000/api/properties")
       let res = await property.json()
       console.log(res)
-      setdata(prev => [...prev, ...res])
-      settempdata(prev => [...prev, ...res])
+      setdata(res)
+      settempdata(res)
     }
     data()
   }, [])
@@ -109,7 +109,7 @@ return (
     <div className='maincont'>
       {tempdata.map(ele => {
         return (
-          <div key={ele.id} className="container">
+          <div key={ele._id} className="container">
             <div className="content">
               <div className="image">
                 <Image
