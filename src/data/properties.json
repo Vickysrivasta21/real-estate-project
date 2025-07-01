@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Villa",
+    "price": "$5000/month",
+    "location": "Mumbai",
+    "lat": 19.0760,
+    "lng": 72.8777,
+    "description": "A beautiful villa with garden and pool.",
+    "rating": 4.9,
+    "reviews": ["Fantastic place!", "Very clean and spacious."]
+  },
+  {
+    "id": 2,
+    "title": "2BHK Flat",
+    "price": "$1500/month",
+    "location": "Delhi",
+    "lat": 28.6139,
+    "lng": 77.2090,
+    "description": "Affordable flat in central Delhi.",
+    "rating": 4.5,
+    "reviews": ["Great value!", "Perfect for students."]
+  }
+]
