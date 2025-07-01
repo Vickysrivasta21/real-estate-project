@@ -1,0 +1,1002 @@
+ [
+  {
+    "id": 1,
+    "title": "Compact 3BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹89 Lakh",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "1718 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 19.0719,
+    "lng": 72.8707,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Modern 3BHK Apartment",
+    "location": "Delhi",
+    "price": "₹66 Lakh",
+    "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1442 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.6061,
+    "lng": 77.2013,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Luxury 2BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹59 Lakh",
+    "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1579 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.5,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 26.8399,
+    "lng": 80.9461,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Luxury 4BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹1.25 Crore",
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "926 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 22.5789,
+    "lng": 88.358,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Compact 2BHK Apartment",
+    "location": "Chennai",
+    "price": "₹1.24 Crore",
+    "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "1099 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 13.0807,
+    "lng": 80.2748,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Spacious 1BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹42 Lakh",
+    "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "1742 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 26.842,
+    "lng": 80.9394,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Compact 4BHK Apartment",
+    "location": "Chennai",
+    "price": "₹41 Lakh",
+    "image": "https://images.pexels.com/photos/2058499/pexels-photo-2058499.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2560 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 13.0896,
+    "lng": 80.2765,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Modern 1BHK Apartment",
+    "location": "Chennai",
+    "price": "₹1.33 Crore",
+    "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "1630 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.4,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 13.0728,
+    "lng": 80.2776,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹2.37 Crore",
+    "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2360 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 12.9638,
+    "lng": 77.5916,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Compact 2BHK Apartment",
+    "location": "Delhi",
+    "price": "₹1.87 Crore",
+    "image": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2443 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "parking": false,
+    "rating": 4.9,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.6082,
+    "lng": 77.2089,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Modern 3BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹2.33 Crore",
+    "image": "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "876 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.4,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 19.0798,
+    "lng": 72.87060000000001,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Chennai",
+    "price": "₹81 Lakh",
+    "image": "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1394 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 13.0775,
+    "lng": 80.27000000000001,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Modern 3BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹83 Lakh",
+    "image": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "1469 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.9,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 22.5635,
+    "lng": 88.3702,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Compact 1BHK Apartment",
+    "location": "Delhi",
+    "price": "₹2.16 Crore",
+    "image": "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "2595 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.8,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 28.6078,
+    "lng": 77.2185,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Modern 3BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹75 Lakh",
+    "image": "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2105 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": true,
+    "rating": 4.6,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 26.8405,
+    "lng": 80.9401,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Modern 1BHK Apartment",
+    "location": "Delhi",
+    "price": "₹83 Lakh",
+    "image": "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2932 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.5,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 28.6078,
+    "lng": 77.2074,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹2.26 Crore",
+    "image": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "1476 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 12.9756,
+    "lng": 77.5974,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Luxury 2BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹1.62 Crore",
+    "image": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2389 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.9,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 22.563100000000002,
+    "lng": 88.35640000000001,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹75 Lakh",
+    "image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "840 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": false,
+    "rating": 4.3,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 12.9635,
+    "lng": 77.604,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Compact 3BHK Apartment",
+    "location": "Delhi",
+    "price": "₹2.07 Crore",
+    "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2023 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.3,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.6142,
+    "lng": 77.21130000000001,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Compact 4BHK Apartment",
+    "location": "Delhi",
+    "price": "₹67 Lakh",
+    "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "2633 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.4,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 28.622500000000002,
+    "lng": 77.2098,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Spacious 4BHK Apartment",
+    "location": "Delhi",
+    "price": "₹63 Lakh",
+    "image": "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "1306 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.9,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.606,
+    "lng": 77.2091,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Luxury 4BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹1.29 Crore",
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2435 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 26.8368,
+    "lng": 80.9469,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Spacious 4BHK Apartment",
+    "location": "Delhi",
+    "price": "₹69 Lakh",
+    "image": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "790 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.4,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.6131,
+    "lng": 77.21770000000001,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Luxury 2BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹1.99 Crore",
+    "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "832 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 19.0736,
+    "lng": 72.87020000000001,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Compact 1BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹1.39 Crore",
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "2017 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.3,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 26.845799999999997,
+    "lng": 80.9537,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Modern 2BHK Apartment",
+    "location": "Chennai",
+    "price": "₹1.23 Crore",
+    "image": "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1728 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.6,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 13.0851,
+    "lng": 80.2748,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Luxury 4BHK Apartment",
+    "location": "Chennai",
+    "price": "₹49 Lakh",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "1920 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.8,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 13.0754,
+    "lng": 80.2628,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Compact 2BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹27 Lakh",
+    "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "661 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.4,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 12.9651,
+    "lng": 77.6035,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹1.59 Crore",
+    "image": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2589 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 26.846,
+    "lng": 80.9439,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Spacious 3BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹78 Lakh",
+    "image": "https://images.pexels.com/photos/2058499/pexels-photo-2058499.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "2957 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.4,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 22.579900000000002,
+    "lng": 88.3646,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Luxury 3BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹1.41 Crore",
+    "image": "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "1776 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.4,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 22.5637,
+    "lng": 88.3713,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Compact 3BHK Apartment",
+    "location": "Chennai",
+    "price": "₹52 Lakh",
+    "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "2003 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.3,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 13.084900000000001,
+    "lng": 80.2675,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Compact 1BHK Apartment",
+    "location": "Chennai",
+    "price": "₹26 Lakh",
+    "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2960 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.8,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 13.080100000000002,
+    "lng": 80.26360000000001,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Luxury 1BHK Apartment",
+    "location": "Chennai",
+    "price": "₹84 Lakh",
+    "image": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1207 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "rating": 4.3,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 13.087000000000002,
+    "lng": 80.2664,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Compact 3BHK Apartment",
+    "location": "Delhi",
+    "price": "₹28 Lakh",
+    "image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "846 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": true,
+    "rating": 4.4,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.623,
+    "lng": 77.2089,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Compact 4BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹2.21 Crore",
+    "image": "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "684 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "parking": false,
+    "rating": 4.5,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 19.0713,
+    "lng": 72.8859,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Luxury 3BHK Apartment",
+    "location": "Delhi",
+    "price": "₹1.36 Crore",
+    "image": "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "1840 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 28.607400000000002,
+    "lng": 77.2073,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Compact 3BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹61 Lakh",
+    "image": "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "1423 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.4,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 19.084500000000002,
+    "lng": 72.87780000000001,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Modern 4BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹54 Lakh",
+    "image": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2218 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 3,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 26.8513,
+    "lng": 80.9392,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Compact 1BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹2.23 Crore",
+    "image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1300 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "parking": false,
+    "rating": 4.4,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 22.581300000000002,
+    "lng": 88.3663,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Luxury 3BHK Apartment",
+    "location": "Lucknow",
+    "price": "₹1.12 Crore",
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "1BHK",
+    "area": "1396 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 3BHK with modern amenities and good ventilation.",
+    "lat": 26.845899999999997,
+    "lng": 80.94330000000001,
+    "reviews": [
+      "Nice location.",
+      "Well maintained."
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Compact 4BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹1.35 Crore",
+    "image": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "2659 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": true,
+    "rating": 4.5,
+    "description": "A beautiful 1BHK with modern amenities and good ventilation.",
+    "lat": 12.969000000000001,
+    "lng": 77.5896,
+    "reviews": [
+      "Fantastic place!",
+      "Very clean and spacious."
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Modern 4BHK Apartment",
+    "location": "Bangalore",
+    "price": "₹56 Lakh",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "2082 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 12.9655,
+    "lng": 77.6038,
+    "reviews": [
+      "Modern design.",
+      "Loved the interiors."
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Spacious 2BHK Apartment",
+    "location": "Delhi",
+    "price": "₹35 Lakh",
+    "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "913 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.9,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 28.6069,
+    "lng": 77.2107,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Compact 4BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹96 Lakh",
+    "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "1330 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "parking": false,
+    "rating": 4.8,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 19.069,
+    "lng": 72.88470000000001,
+    "reviews": [
+      "Great value!",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Spacious 1BHK Apartment",
+    "location": "Kolkata",
+    "price": "₹1.42 Crore",
+    "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "756 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "parking": false,
+    "rating": 4.7,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 22.5696,
+    "lng": 88.3725,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Luxury 4BHK Apartment",
+    "location": "Chennai",
+    "price": "₹76 Lakh",
+    "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "4BHK",
+    "area": "618 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.7,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 13.0777,
+    "lng": 80.2668,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Spacious 1BHK Apartment",
+    "location": "Delhi",
+    "price": "₹1.88 Crore",
+    "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "3BHK",
+    "area": "2266 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "parking": true,
+    "rating": 4.6,
+    "description": "A beautiful 2BHK with modern amenities and good ventilation.",
+    "lat": 28.6152,
+    "lng": 77.20060000000001,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Luxury 2BHK Apartment",
+    "location": "Mumbai",
+    "price": "₹1.53 Crore",
+    "image": "https://images.pexels.com/photos/2058499/pexels-photo-2058499.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "type": "2BHK",
+    "area": "1530 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "parking": true,
+    "rating": 4.5,
+    "description": "A beautiful 4BHK with modern amenities and good ventilation.",
+    "lat": 19.0745,
+    "lng": 72.87270000000001,
+    "reviews": [
+      "Ideal for families.",
+      "Spacious and airy."
+    ]
+  }
+]

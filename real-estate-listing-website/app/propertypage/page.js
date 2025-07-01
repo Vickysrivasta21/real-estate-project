@@ -107,7 +107,11 @@ return (
       </form>
     </div>
     <div className='maincont'>
-      {tempdata.map(ele => {
+      {tempdata.length === 0 ? (
+    <div className="no-results">
+      <h2>OOPS!!..No properties match your filters....</h2>
+    </div>
+          ) :tempdata.map(ele => {
         return (
           <div key={ele._id} className="container">
             <div className="content">
