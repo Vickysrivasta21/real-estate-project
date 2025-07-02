@@ -1,0 +1,230 @@
+/* .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoText {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.centerLinks {
+  display: flex;
+  gap: 25px;
+}
+
+.centerLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.centerLinks a:hover {
+  color: #00bfff;
+}
+
+.rightLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.rightLinks a {
+  background: #0070f3;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.rightLinks a:hover {
+  background: #005bb5;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta {
+  background: #0070f3;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: #005bb5;
+}
+
+.mainContent {
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding: 100px 40px 40px 40px; 
+  overflow: hidden;
+} */
+
+.navsolid {  /*other pages me use karna hai*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #0070f3;
+  color: white;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  right: 0;  
+  border-radius: 0; 
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoText {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.centerLinks {
+  display: flex;
+  gap: 25px;
+}
+
+.centerLinks a {
+  color: #0f000092;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.centerLinks a:hover {
+  color: #00bfff;
+}
+
+.rightLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.rightLinks a {
+  background: #0070f3;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.rightLinks a:hover {
+  background: rgb(4, 119, 196);
+}
+
+.hero {
+  width: 100vw;
+  height: 90vh;
+  background: url('/Can-investment-properties-enable-you-to-retire.jpg') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta {
+  background: rgb(19, 132, 224);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: rgb(19, 132, 224);
+}
+
+/* .mainContent {
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding: 100px 40px 40px 40px; 
+  overflow: hidden;
+} */
