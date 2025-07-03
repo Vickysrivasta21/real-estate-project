@@ -71,7 +71,7 @@ const Maincont = () => {
                     <div className={style.head}><h2>Buy a Home</h2></div>
                     <div className={style.explain}><p>Find your place with an immersive photo experience and the most listings, including things you won't find anywhere else.</p>
                     </div>
-                    <button className="btn"><Link href="">Find Best Homes</Link></button>
+                    <button className={style.btn}><Link href="">Find Best Homes</Link></button>
                 </div>
                 <div className={style.sellprop}>
                     <div className={style.img}>
@@ -86,7 +86,7 @@ const Maincont = () => {
                     <div className={style.head}><h2>Sell a Home</h2></div>
                     <div className={style.explain}><p>No matter what path you take to sell your home, we can help you navigate a successful sale.</p>
                     </div>
-                    <button className="btn"><Link href="">See Options</Link></button>
+                    <button className={style.btn}><Link href="">See Options</Link></button>
                 </div>
                 <div className={style.rentprop}>
                     <div className={style.img}>
@@ -101,11 +101,11 @@ const Maincont = () => {
                     <div className={style.head}><h2>Rent a Home</h2></div>
                     <div className={style.explain}><p>We're creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.</p>
                     </div>
-                    <button className="btn"><Link href="">Find Rentals</Link></button>
+                    <button className={style.btn}><Link href="">Find Rentals</Link></button>
                 </div>
             </div>
             <div className={style.buyarray}>
-                <div className={style.heading}><h2>Quick Picks For you...</h2></div>
+                <div className={style.heading}><h3>Quick Picks For you...</h3></div>
                 <div className={style.array}>
                     {
                         arr2 && arr2.map(ele => {
@@ -150,7 +150,7 @@ const Maincont = () => {
                 </div>
             </div>
             <div className={style.rentarray}>
-                <div className={style.heading}>Top Homes Available for Rent...</div>
+                <div className={style.heading}><h3>Top Homes Available for Rent...</h3></div>
                 <div className={style.array}>
                     {
                         arr3 && arr3.map(ele => {

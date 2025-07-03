@@ -1,0 +1,57 @@
+.foot{
+    display: flex;
+    width: 97%;
+    padding: 20px;
+    min-height: 200px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: rgb(20, 27, 46);
+}
+.contact,.company,.section,.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.foot a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(242, 237, 237);
+    border-radius: 20px;
+}
+.foot a:hover{
+    /* background-color: black; */
+    color: rgb(117, 109, 109);
+    transform: translate(0.5);
+    transition: all 0.4s ease;
+}
+.logo{
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.foot h3{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media (max-width:768px)
+{
+    .foot{
+        flex-direction: column;
+        gap: 20px;
+        width: 97%;
+        justify-content: space-around;
+    }
+    .contact,.company,.section,.logo{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+}
