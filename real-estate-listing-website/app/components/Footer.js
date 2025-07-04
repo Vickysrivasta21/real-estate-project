@@ -1,11 +1,14 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import style from './Footer.module.css'
+import { usePathname } from 'next/navigation'
 
 const Footer = () => {
+    const path = usePathname()
     return (
-        <div className={style.foot}>
+        <div className={path === "/login" || path === "/signup" ? style.hide:style.foot}>
             <div className={style.company}><h3>Company</h3>
                 <Link href="/">About Us</Link>
                 <Link href="/">Contact us</Link>

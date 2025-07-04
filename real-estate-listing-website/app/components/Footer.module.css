@@ -11,6 +11,9 @@
     border-radius: 5px;
     background-color: rgb(20, 27, 46);
 }
+.hide{
+    display: none;
+}
 .contact,.company,.section,.logo{
     display: flex;
     flex-direction: column;

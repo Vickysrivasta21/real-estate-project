@@ -12,7 +12,8 @@ const Navbar = () => {
   console.log(path)
   return (
     <div className={style.navbar}>
-      <div className={path==='/'? style.nav : style.navsolid}>
+      <div className={`${path === "/login" || path === "/signup" ? style.navhide : style.navshow}
+                       ${path === "/" ? style.nav : style.navsolid}`}>
         <div className={style.logo}>
           <Image
             src="/real-estate-chimney-svgrepo-com.svg"
