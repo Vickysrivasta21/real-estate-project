@@ -45,7 +45,7 @@ const Maincont = () => {
                 <div className={style.recommendsign}>
                     <h2>Get Personalised Home Recommendations here</h2>
                     <p>Sign In for More Personalised Experience</p>
-                    <button className="btn"><Link href="/login">Login</Link></button>
+                    <button className="btn"><Link target='_blank' href="/login">Login</Link></button>
                 </div>
                 <div className={style.imagerecommend}>
                     <Image

@@ -142,7 +142,7 @@ return (
                 <div className="parking">{ele.parking ? "available" : "not available"}</div>
               </div>
               <div className="contact">
-                <div className="view"><Link href={`/propertydetail/${ele._id}`}>view details</Link></div>
+                <div className="view"><Link target='_blank' href={`/propertydetail/${ele._id}`}>view details</Link></div>
                 <div className="agent"><Link href="/">contact agent</Link></div>
               </div>
             </div>
