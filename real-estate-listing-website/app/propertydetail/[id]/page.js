@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
-import L from "leaflet";                  // 🌟 Import Leaflet
-import "leaflet/dist/leaflet.css";        // 🌟 Import Leaflet CSS
+import L from "leaflet";                
+import "leaflet/dist/leaflet.css";       
 import styles from "./Property.module.css"
 
 const PropertyDetails = () => {
