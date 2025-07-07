@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "title": "Plot #1",
+    "description": "Spacious Residential Plot in Pune. Ideal for investment and development.",
+    "price": 9961288,
+    "area": 715,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 18.52121163049417,
+    "lng": 73.86457223413804,
+    "location": "Pune",
+    "type": "Apartment"
+  },
+  {
+    "id": 2,
+    "title": "Plot #2",
+    "description": "Spacious Residential Plot in Bangalore. Ideal for investment and development.",
+    "price": 4391888,
+    "area": 2218,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": true,
+      "roadAccess": "30ft"
+    },
+    "lat": 12.97833815720087,
+    "lng": 77.59447976005269,
+    "location": "Bangalore",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 3,
+    "title": "Plot #3",
+    "description": "Spacious Industrial Area in Chennai. Ideal for investment and development.",
+    "price": 5876726,
+    "area": 2532,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 13.083604465238794,
+    "lng": 80.27277988186268,
+    "location": "Chennai",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 4,
+    "title": "Plot #4",
+    "description": "Spacious Factory Land in Mumbai. Ideal for investment and development.",
+    "price": 2624335,
+    "area": 3528,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 19.068391187131237,
+    "lng": 72.88497876601869,
+    "location": "Mumbai",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 5,
+    "title": "Plot #5",
+    "description": "Spacious Commercial Plot in Kolkata. Ideal for investment and development.",
+    "price": 9243028,
+    "area": 3958,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 22.582334243005448,
+    "lng": 88.37095931218013,
+    "location": "Kolkata",
+    "type": "Government Land"
+  },
+  {
+    "id": 6,
+    "title": "Plot #6",
+    "description": "Spacious Commercial Plot in Chennai. Ideal for investment and development.",
+    "price": 1532003,
+    "area": 3638,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 13.079731761247455,
+    "lng": 80.2659482995706,
+    "location": "Chennai",
+    "type": "Government Land"
+  },
+  {
+    "id": 7,
+    "title": "Plot #7",
+    "description": "Spacious Commercial Plot in Delhi. Ideal for investment and development.",
+    "price": 5811883,
+    "area": 3028,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 28.610525170735304,
+    "lng": 77.20488542655904,
+    "location": "Delhi",
+    "type": "Government Land"
+  },
+  {
+    "id": 8,
+    "title": "Plot #8",
+    "description": "Spacious Industrial Area in Hyderabad. Ideal for investment and development.",
+    "price": 5149840,
+    "area": 4091,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 17.38758813118788,
+    "lng": 78.48249888214879,
+    "location": "Hyderabad",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 9,
+    "title": "Plot #9",
+    "description": "Spacious Government Land in Kolkata. Ideal for investment and development.",
+    "price": 3182038,
+    "area": 4028,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 22.566562016783465,
+    "lng": 88.35916507287361,
+    "location": "Kolkata",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 10,
+    "title": "Plot #10",
+    "description": "Spacious Apartment in Hyderabad. Ideal for investment and development.",
+    "price": 7496497,
+    "area": 3461,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 17.38912023964895,
+    "lng": 78.48935775279104,
+    "location": "Hyderabad",
+    "type": "Apartment"
+  },
+  {
+    "id": 11,
+    "title": "Plot #11",
+    "description": "Spacious Apartment in Delhi. Ideal for investment and development.",
+    "price": 8218575,
+    "area": 4822,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 28.620021322160454,
+    "lng": 77.21644688540947,
+    "location": "Delhi",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 12,
+    "title": "Plot #12",
+    "description": "Spacious Apartment in Mumbai. Ideal for investment and development.",
+    "price": 7354497,
+    "area": 1553,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 19.083126208745973,
+    "lng": 72.87511933671696,
+    "location": "Mumbai",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 13,
+    "title": "Plot #13",
+    "description": "Spacious Apartment in Hyderabad. Ideal for investment and development.",
+    "price": 3360661,
+    "area": 1659,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 17.38948287116545,
+    "lng": 78.48792171873627,
+    "location": "Hyderabad",
+    "type": "Apartment"
+  },
+  {
+    "id": 14,
+    "title": "Plot #14",
+    "description": "Spacious Industrial Area in Delhi. Ideal for investment and development.",
+    "price": 9725026,
+    "area": 1493,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 28.60705240524303,
+    "lng": 77.21258367948184,
+    "location": "Delhi",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 15,
+    "title": "Plot #15",
+    "description": "Spacious Government Land in Delhi. Ideal for investment and development.",
+    "price": 2570193,
+    "area": 3656,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "30ft"
+    },
+    "lat": 28.620905130651064,
+    "lng": 77.1999377314412,
+    "location": "Delhi",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 16,
+    "title": "Plot #16",
+    "description": "Spacious Industrial Area in Chennai. Ideal for investment and development.",
+    "price": 1541719,
+    "area": 4108,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 13.089033884164992,
+    "lng": 80.26459794892307,
+    "location": "Chennai",
+    "type": "Factory Land"
+  },
+  {
+    "id": 17,
+    "title": "Plot #17",
+    "description": "Spacious Industrial Area in Bangalore. Ideal for investment and development.",
+    "price": 6229660,
+    "area": 1077,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 12.962632722044864,
+    "lng": 77.59711801561556,
+    "location": "Bangalore",
+    "type": "Factory Land"
+  },
+  {
+    "id": 18,
+    "title": "Plot #18",
+    "description": "Spacious Commercial Plot in Delhi. Ideal for investment and development.",
+    "price": 3291781,
+    "area": 2097,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 28.61201330225703,
+    "lng": 77.21782106024807,
+    "location": "Delhi",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 19,
+    "title": "Plot #19",
+    "description": "Spacious Apartment in Mumbai. Ideal for investment and development.",
+    "price": 5702714,
+    "area": 2195,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 19.074619902140416,
+    "lng": 72.8724485178218,
+    "location": "Mumbai",
+    "type": "Apartment"
+  },
+  {
+    "id": 20,
+    "title": "Plot #20",
+    "description": "Spacious Factory Land in Pune. Ideal for investment and development.",
+    "price": 4538276,
+    "area": 3636,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 18.51418065989436,
+    "lng": 73.84744702903843,
+    "location": "Pune",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 21,
+    "title": "Plot #21",
+    "description": "Spacious Commercial Plot in Kolkata. Ideal for investment and development.",
+    "price": 4399912,
+    "area": 4321,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 22.567993586258297,
+    "lng": 88.36258696238707,
+    "location": "Kolkata",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 22,
+    "title": "Plot #22",
+    "description": "Spacious Commercial Plot in Kolkata. Ideal for investment and development.",
+    "price": 4891968,
+    "area": 985,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 22.579614328691473,
+    "lng": 88.35526863700518,
+    "location": "Kolkata",
+    "type": "Factory Land"
+  },
+  {
+    "id": 23,
+    "title": "Plot #23",
+    "description": "Spacious Factory Land in Mumbai. Ideal for investment and development.",
+    "price": 1470904,
+    "area": 2502,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 19.067012125518403,
+    "lng": 72.88069767880889,
+    "location": "Mumbai",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 24,
+    "title": "Plot #24",
+    "description": "Spacious Factory Land in Hyderabad. Ideal for investment and development.",
+    "price": 6891519,
+    "area": 2258,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 17.388080213552723,
+    "lng": 78.49515745876305,
+    "location": "Hyderabad",
+    "type": "Government Land"
+  },
+  {
+    "id": 25,
+    "title": "Plot #25",
+    "description": "Spacious Factory Land in Pune. Ideal for investment and development.",
+    "price": 8610866,
+    "area": 1898,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 18.516554357672213,
+    "lng": 73.86520259269827,
+    "location": "Pune",
+    "type": "Government Land"
+  },
+  {
+    "id": 26,
+    "title": "Plot #26",
+    "description": "Spacious Factory Land in Chennai. Ideal for investment and development.",
+    "price": 5314886,
+    "area": 909,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 13.077876526449996,
+    "lng": 80.27581631792033,
+    "location": "Chennai",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 27,
+    "title": "Plot #27",
+    "description": "Spacious Industrial Area in Bangalore. Ideal for investment and development.",
+    "price": 1768061,
+    "area": 1806,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 12.979303821326843,
+    "lng": 77.58568084399677,
+    "location": "Bangalore",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 28,
+    "title": "Plot #28",
+    "description": "Spacious Residential Plot in Pune. Ideal for investment and development.",
+    "price": 2784121,
+    "area": 2321,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": true,
+      "roadAccess": "30ft"
+    },
+    "lat": 18.52315189543553,
+    "lng": 73.86485457604758,
+    "location": "Pune",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 29,
+    "title": "Plot #29",
+    "description": "Spacious Government Land in Delhi. Ideal for investment and development.",
+    "price": 3472023,
+    "area": 4699,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 28.614190640035506,
+    "lng": 77.21178012739975,
+    "location": "Delhi",
+    "type": "Apartment"
+  },
+  {
+    "id": 30,
+    "title": "Plot #30",
+    "description": "Spacious Commercial Plot in Bangalore. Ideal for investment and development.",
+    "price": 4083160,
+    "area": 3695,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 12.970563662574548,
+    "lng": 77.59612126574676,
+    "location": "Bangalore",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 31,
+    "title": "Plot #31",
+    "description": "Spacious Apartment in Chennai. Ideal for investment and development.",
+    "price": 7652472,
+    "area": 645,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 13.078384624527036,
+    "lng": 80.2640844454612,
+    "location": "Chennai",
+    "type": "Factory Land"
+  },
+  {
+    "id": 32,
+    "title": "Plot #32",
+    "description": "Spacious Factory Land in Kolkata. Ideal for investment and development.",
+    "price": 5053077,
+    "area": 2419,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 22.581277520589804,
+    "lng": 88.3722142145671,
+    "location": "Kolkata",
+    "type": "Apartment"
+  },
+  {
+    "id": 33,
+    "title": "Plot #33",
+    "description": "Spacious Government Land in Pune. Ideal for investment and development.",
+    "price": 2879884,
+    "area": 1486,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "30ft"
+    },
+    "lat": 18.515250576470027,
+    "lng": 73.86246136900449,
+    "location": "Pune",
+    "type": "Apartment"
+  },
+  {
+    "id": 34,
+    "title": "Plot #34",
+    "description": "Spacious Commercial Plot in Bangalore. Ideal for investment and development.",
+    "price": 9898762,
+    "area": 4613,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 12.97778115615693,
+    "lng": 77.59840220520655,
+    "location": "Bangalore",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 35,
+    "title": "Plot #35",
+    "description": "Spacious Residential Plot in Hyderabad. Ideal for investment and development.",
+    "price": 8127393,
+    "area": 3032,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 17.392879689558853,
+    "lng": 78.49260915854714,
+    "location": "Hyderabad",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 36,
+    "title": "Plot #36",
+    "description": "Spacious Government Land in Kolkata. Ideal for investment and development.",
+    "price": 3114507,
+    "area": 748,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 22.57457116870777,
+    "lng": 88.36076613361624,
+    "location": "Kolkata",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 37,
+    "title": "Plot #37",
+    "description": "Spacious Government Land in Chennai. Ideal for investment and development.",
+    "price": 6969745,
+    "area": 2966,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 13.084804277862668,
+    "lng": 80.26214412826648,
+    "location": "Chennai",
+    "type": "Apartment"
+  },
+  {
+    "id": 38,
+    "title": "Plot #38",
+    "description": "Spacious Factory Land in Kolkata. Ideal for investment and development.",
+    "price": 9474850,
+    "area": 2550,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 22.567261027591375,
+    "lng": 88.36369054120892,
+    "location": "Kolkata",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 39,
+    "title": "Plot #39",
+    "description": "Spacious Government Land in Mumbai. Ideal for investment and development.",
+    "price": 8605683,
+    "area": 517,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 19.06714938905485,
+    "lng": 72.88192115954313,
+    "location": "Mumbai",
+    "type": "Commercial Plot"
+  },
+  {
+    "id": 40,
+    "title": "Plot #40",
+    "description": "Spacious Industrial Area in Hyderabad. Ideal for investment and development.",
+    "price": 8847345,
+    "area": 1115,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 17.379413453897453,
+    "lng": 78.48408310915183,
+    "location": "Hyderabad",
+    "type": "Government Land"
+  },
+  {
+    "id": 41,
+    "title": "Plot #41",
+    "description": "Spacious Factory Land in Bangalore. Ideal for investment and development.",
+    "price": 1740631,
+    "area": 2050,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "40ft"
+    },
+    "lat": 12.97686458361601,
+    "lng": 77.58750439225301,
+    "location": "Bangalore",
+    "type": "Factory Land"
+  },
+  {
+    "id": 42,
+    "title": "Plot #42",
+    "description": "Spacious Factory Land in Delhi. Ideal for investment and development.",
+    "price": 5588767,
+    "area": 2127,
+    "specifications": {
+      "facing": "West",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 28.611474917128188,
+    "lng": 77.21649671671543,
+    "location": "Delhi",
+    "type": "Apartment"
+  },
+  {
+    "id": 43,
+    "title": "Plot #43",
+    "description": "Spacious Factory Land in Kolkata. Ideal for investment and development.",
+    "price": 7835367,
+    "area": 1276,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "40ft"
+    },
+    "lat": 22.573073905303225,
+    "lng": 88.355835292781,
+    "location": "Kolkata",
+    "type": "Factory Land"
+  },
+  {
+    "id": 44,
+    "title": "Plot #44",
+    "description": "Spacious Commercial Plot in Mumbai. Ideal for investment and development.",
+    "price": 8010849,
+    "area": 2109,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 19.071001657572335,
+    "lng": 72.88412785557422,
+    "location": "Mumbai",
+    "type": "Factory Land"
+  },
+  {
+    "id": 45,
+    "title": "Plot #45",
+    "description": "Spacious Industrial Area in Delhi. Ideal for investment and development.",
+    "price": 8724004,
+    "area": 2360,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "30ft"
+    },
+    "lat": 28.617224606613796,
+    "lng": 77.21263994870665,
+    "location": "Delhi",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 46,
+    "title": "Plot #46",
+    "description": "Spacious Industrial Area in Hyderabad. Ideal for investment and development.",
+    "price": 3767617,
+    "area": 4974,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": false,
+      "roadAccess": "20ft"
+    },
+    "lat": 17.386481798164905,
+    "lng": 78.493850084106,
+    "location": "Hyderabad",
+    "type": "Residential Plot"
+  },
+  {
+    "id": 47,
+    "title": "Plot #47",
+    "description": "Spacious Commercial Plot in Kolkata. Ideal for investment and development.",
+    "price": 7276119,
+    "area": 548,
+    "specifications": {
+      "facing": "North",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 22.56899267655197,
+    "lng": 88.37139849045825,
+    "location": "Kolkata",
+    "type": "Industrial Area"
+  },
+  {
+    "id": 48,
+    "title": "Plot #48",
+    "description": "Spacious Commercial Plot in Kolkata. Ideal for investment and development.",
+    "price": 4835178,
+    "area": 1180,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": false,
+      "roadAccess": "30ft"
+    },
+    "lat": 22.57106186000225,
+    "lng": 88.36715026356818,
+    "location": "Kolkata",
+    "type": "Government Land"
+  },
+  {
+    "id": 49,
+    "title": "Plot #49",
+    "description": "Spacious Industrial Area in Bangalore. Ideal for investment and development.",
+    "price": 4073566,
+    "area": 3477,
+    "specifications": {
+      "facing": "East",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 12.96642101481126,
+    "lng": 77.58870413165083,
+    "location": "Bangalore",
+    "type": "Apartment"
+  },
+  {
+    "id": 50,
+    "title": "Plot #50",
+    "description": "Spacious Apartment in Delhi. Ideal for investment and development.",
+    "price": 7264809,
+    "area": 2000,
+    "specifications": {
+      "facing": "South",
+      "gatedCommunity": true,
+      "roadAccess": "20ft"
+    },
+    "lat": 28.61480189403281,
+    "lng": 77.21863199835225,
+    "location": "Delhi",
+    "type": "Residential Plot"
+  }
+]
