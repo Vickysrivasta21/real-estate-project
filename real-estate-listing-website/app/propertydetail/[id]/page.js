@@ -2,6 +2,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
+import L from "leaflet";                
+import "leaflet/dist/leaflet.css";       
+import styles from "./Property.module.css"
 
 const PropertyDetails = () => {
   const { id } = useParams();
@@ -21,42 +24,65 @@ const PropertyDetails = () => {
   }, [id]);
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.google && property) {
-      const map = new window.google.maps.Map(document.getElementById("map"), {
-        center: { lat: property.lat, lng: property.lng },
-        zoom: 15,
-      });
+    if (property) {
+      const map = L.map("map").setView([property.lat, property.lng], 15);
 
-      new window.google.maps.Marker({
-        position: { lat: property.lat, lng: property.lng },
-        map: map,
-      });
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      L.marker([property.lat, property.lng], {
+        icon: L.icon({
+          iconUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png",
+          shadowUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png",
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41],
+        }),
+      }).addTo(map);
     }
   }, [property]);
 
   if (!property) return <div>Loading...</div>;
 
   return (
-    <div className="maincont">
-      <div className="container">
-        <div className="image">
-          <Image src={property.image} width={600} height={400} alt="Property image" />
+    <div className={styles.propertyDetailsContainer}>
+      <div className={styles.propertyDetailsCard}>
+        <div className={styles.propertyDetailsImage}>
+          <Image src={property.image} alt="Property image"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '98.9%', height: 'auto' }} />
         </div>
-        <div className="type-price">
+
+        <div className={styles.propertyDetailsTypePrice}>
           <div className="type">{property.type}</div>
           <div className="price">{property.price}</div>
         </div>
-        <div className="title"><h1>{property.title}</h1></div>
-        <div className="location">Location: {property.location}</div>
+
+        <div className="title">
+          <h1>{property.title}</h1>
+        </div>
+
+        <div className="location">
+          Location: {property.location}
+        </div>
+
         <div className="features">
           <div className="size">Size: {property.size}</div>
           <div className="beds">Bedrooms: {property.bedrooms}</div>
           <div className="bath">Bathrooms: {property.bathrooms}</div>
-          <div className="parking">Parking: {property.parking ? "Available" : "Not available"}</div>
+          <div className="parking">
+            Parking: {property.parking ? "Available" : "Not available"}
+          </div>
         </div>
-        <div id="map" style={{ width: "100%", height: "300px", marginTop: "20px" }}></div>
       </div>
+
+      <div className={styles.propertyDetailsMap} id="map"></div>
     </div>
+
   );
 };
 

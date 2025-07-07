@@ -11,10 +11,12 @@
     "tailwind:build": "tailwindcss -i ./styles/globals.css -o ./styles/output.css --watch"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.59.0",
+    "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.6.3",
     "react-toastify": "^11.0.5"
   },

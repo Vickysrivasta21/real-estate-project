@@ -1,0 +1,40 @@
+.propertyDetailsContainer {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.propertyDetailsCard {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.propertyDetailsMap {
+  flex: 1;
+  min-height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+@media (max-width: 1110px) {
+  .propertyDetailsContainer {
+    flex-direction: column;
+    width: 95%;  
+  }
+  .propertyDetailsImage{
+    width: 100%;
+  }
+
+  .propertyDetailsCard,
+  .propertyDetailsMap {
+    flex: none;
+    width: 100%;
+  }
+
+  .propertyDetailsMap {
+    min-height: 300px; 
+  }
+}
