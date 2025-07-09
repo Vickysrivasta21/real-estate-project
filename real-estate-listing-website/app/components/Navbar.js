@@ -26,8 +26,8 @@ const Navbar = () => {
         </div>
         <div className={`${style.centerLinks} ${show ? style.show : style.hide}`}>
           <Link target='_blank' href="/propertypage">Buy</Link>
-          <Link href="/">Rent</Link>
-          <Link href="/">Sell</Link>
+          <Link target='_blank' href="/rentalproperty">Rent</Link>
+          <Link target='_blank' href="/">Sell</Link>
         </div>
         
         <div className={`${style.rightLinks} ${show ? style.show : style.hide}`}>

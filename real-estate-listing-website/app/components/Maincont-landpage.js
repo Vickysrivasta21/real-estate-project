@@ -22,7 +22,9 @@ const Maincont = () => {
                     return ele
                 }
             }))
-            setarr3(res.filter(ele => {
+            let rentdata = await fetch("http://localhost:5000/api/rentprop")
+            let newres = await rentdata.json()
+            setarr3(newres.filter(ele => {
                 if (ele.rating >= 3.5) {
                     return ele
                 }
@@ -139,7 +141,7 @@ const Maincont = () => {
                                             <div className={style.parking}>{ele.parking ? "available" : "not available"}</div>
                                         </div>
                                         <div className={style.contact}>
-                                            <div className={style.view}><Link href={`/propertydetail/${ele._id}`}>view details</Link></div>
+                                            <div className={style.view}><Link target='_blank' href={`/propertydetail/${ele._id}`}>view details</Link></div>
                                             <div className={style.agent}><Link href="/">contact agent</Link></div>
                                         </div>
                                     </div>
@@ -159,7 +161,7 @@ const Maincont = () => {
                                     <div className={style.content}>
                                         <div className={style.image}>
                                             <Image
-                                                src={ele.image}
+                                                src={ele.image_url}
                                                 width={250}
                                                 height={250}
                                                 alt="Property image"
@@ -181,7 +183,7 @@ const Maincont = () => {
                                             <div className={style.size}>{ele.size}</div>
                                             <div className={style.beds}>total bedrooms : {ele.bedrooms}</div>
                                             <div className={style.bath}>total bathroom : {ele.bathrooms}</div>
-                                            <div className={style.parking}>{ele.parking ? "Parking : available" : "Parking : not available"}</div>
+                                            <div className={style.parking}>{ele.availability}</div>
                                         </div>
                                         <div className={style.contact}>
                                             <div className={style.view}><Link href={`/propertydetail/${ele._id}`}>view details</Link></div>

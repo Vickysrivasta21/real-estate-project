@@ -1,0 +1,952 @@
+[
+    {
+      "id": 1,
+      "title": "Cozy Single Room with AC",
+      "image_url": "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg",
+      "rent_monthly": "8000/month",
+      "type": "students",
+      "location": "Delhi, Sarojini Nagar",
+      "longitude": 77.1943,
+      "latitude": 28.5706,
+      "rating": 4.2,
+      "reviews": "Clean room with good ventilation. Landlord is cooperative and the area is well-connected to metro.",
+      "features": ["AC", "Wi-Fi", "Attached bathroom", "Wardrobe"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Sarojini Nagar Metro (2km)",
+        "nearest_railway": "New Delhi Railway Station (8km)",
+        "airport": "IGI Airport (15km)"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Spacious Double Sharing Room",
+      "image_url": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+      "rent_monthly": "6500/month",
+      "type": "working professionals",
+      "location": "Mumbai, Andheri East",
+      "longitude": 72.8777,
+      "latitude": 19.1136,
+      "rating": 4.5,
+      "reviews": "Great location near IT parks. Room is spacious and well-maintained. Good security.",
+      "features": ["Wi-Fi", "Parking", "Security", "Gym nearby"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Andheri Metro (3km)",
+        "nearest_railway": "Andheri Railway Station (5km)",
+        "airport": "Mumbai Airport (8km)"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Budget Bunk Bed Room",
+      "image_url": "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg",
+      "rent_monthly": "4500/month",
+      "type": "students",
+      "location": "Bangalore, Koramangala",
+      "longitude": 77.6309,
+      "latitude": 12.9352,
+      "rating": 3.8,
+      "reviews": "Affordable option for students. Basic amenities available. Area has good food options.",
+      "features": ["Wi-Fi", "Common kitchen", "Study area"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Koramangala Metro (3km)",
+        "nearest_railway": "Bangalore City Railway Station (8km)",
+        "airport": "Kempegowda Airport (12km)"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Premium Single Room with Balcony",
+      "image_url": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+      "rent_monthly": "12000/month",
+      "type": "working professionals",
+      "location": "Pune, Hinjewadi",
+      "longitude": 73.7274,
+      "latitude": 18.5912,
+      "rating": 4.7,
+      "reviews": "Excellent room with modern amenities. Very close to IT companies. Peaceful environment.",
+      "features": ["AC", "Balcony", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Hinjewadi Metro (1km)",
+        "nearest_railway": "Pune Railway Station (20km)",
+        "airport": "Pune Airport (25km)"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Family Room with Kitchen",
+      "image_url": "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg",
+      "rent_monthly": "15000/month",
+      "type": "family",
+      "location": "Chennai, T Nagar",
+      "longitude": 80.2337,
+      "latitude": 13.0418,
+      "rating": 4.3,
+      "reviews": "Perfect for small families. Kitchen facilities available. Good connectivity to all parts of city.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "T Nagar Metro (2km)",
+        "nearest_railway": "Chennai Central (6km)",
+        "airport": "Chennai Airport (18km)"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Modern Double Room",
+      "image_url": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg",
+      "rent_monthly": "9500/month",
+      "type": "working professionals",
+      "location": "Hyderabad, Gachibowli",
+      "longitude": 78.3428,
+      "latitude": 17.4435,
+      "rating": 4.4,
+      "reviews": "Well-furnished room in tech hub. Good transport connectivity. Responsive landlord.",
+      "features": ["AC", "Wi-Fi", "Wardrobe"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Gachibowli Metro (2km)",
+        "nearest_railway": "Secunderabad Railway Station (25km)",
+        "airport": "Hyderabad Airport (22km)"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Student Triple Sharing",
+      "image_url": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg",
+      "rent_monthly": "5000/month",
+      "type": "students",
+      "location": "Kolkata, Salt Lake",
+      "longitude": 88.3639,
+      "latitude": 22.5726,
+      "rating": 4.0,
+      "reviews": "Affordable for students. Good study environment. Close to educational institutions.",
+      "features": ["Wi-Fi", "Study table", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Salt Lake Metro (1km)",
+        "nearest_railway": "Sealdah Railway Station (10km)",
+        "airport": "Kolkata Airport (8km)"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Luxury Single Room",
+      "image_url": "https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg",
+      "rent_monthly": "18000/month",
+      "type": "working professionals",
+      "location": "Mumbai, Bandra West",
+      "longitude": 72.8290,
+      "latitude": 19.0596,
+      "rating": 4.8,
+      "reviews": "Premium location with all modern amenities. Excellent maintenance and security.",
+      "features": ["AC", "Gym", "Swimming pool", "Wi-Fi"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Bandra Metro (2km)",
+        "nearest_railway": "Bandra Railway Station (1km)",
+        "airport": "Mumbai Airport (5km)"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Shared Bunk Room",
+      "image_url": "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg",
+      "rent_monthly": "3800/month",
+      "type": "students",
+      "location": "Delhi, Lajpat Nagar",
+      "longitude": 77.2424,
+      "latitude": 28.5677,
+      "rating": 3.6,
+      "reviews": "Very budget-friendly. Basic amenities. Good for short-term stays.",
+      "features": ["Wi-Fi", "Common bathroom", "Laundry"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Lajpat Nagar Metro (500m)",
+        "nearest_railway": "Hazrat Nizamuddin (5km)",
+        "airport": "IGI Airport (12km)"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Executive Double Room",
+      "image_url": "https://images.pexels.com/photos/1571467/pexels-photo-1571467.jpeg",
+      "rent_monthly": "11000/month",
+      "type": "working professionals",
+      "location": "Bangalore, Electronic City",
+      "longitude": 77.6648,
+      "latitude": 12.8456,
+      "rating": 4.5,
+      "reviews": "Great for IT professionals. Close to major companies. Well-connected area.",
+      "features": ["AC", "Wi-Fi", "Parking", "Cafeteria"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Electronic City Metro (2km)",
+        "nearest_railway": "Bangalore City Railway Station (20km)",
+        "airport": "Kempegowda Airport (15km)"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Comfortable Single Room",
+      "image_url": "https://images.pexels.com/photos/1454805/pexels-photo-1454805.jpeg",
+      "rent_monthly": "7500/month",
+      "type": "students",
+      "location": "Pune, Kothrud",
+      "longitude": 73.8062,
+      "latitude": 18.5074,
+      "rating": 4.1,
+      "reviews": "Good for students and working professionals. Peaceful neighborhood.",
+      "features": ["Wi-Fi", "Wardrobe", "Study table"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Kothrud Metro (1.5km)",
+        "nearest_railway": "Pune Railway Station (8km)",
+        "airport": "Pune Airport (20km)"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Family Suite Room",
+      "image_url": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+      "rent_monthly": "20000/month",
+      "type": "family",
+      "location": "Chennai, Adyar",
+      "longitude": 80.2574,
+      "latitude": 13.0067,
+      "rating": 4.6,
+      "reviews": "Spacious room suitable for families. Good amenities and safe neighborhood.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking", "Security"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Adyar Metro (2km)",
+        "nearest_railway": "Chennai Central (12km)",
+        "airport": "Chennai Airport (15km)"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Budget Double Sharing",
+      "image_url": "https://images.pexels.com/photos/1457845/pexels-photo-1457845.jpeg",
+      "rent_monthly": "5500/month",
+      "type": "students",
+      "location": "Hyderabad, Kukatpally",
+      "longitude": 78.4089,
+      "latitude": 17.4851,
+      "rating": 3.9,
+      "reviews": "Affordable option with decent amenities. Good connectivity to colleges.",
+      "features": ["Wi-Fi", "Common kitchen", "Study area"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Kukatpally Metro (1km)",
+        "nearest_railway": "Secunderabad Railway Station (20km)",
+        "airport": "Hyderabad Airport (25km)"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Premium Studio Room",
+      "image_url": "https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg",
+      "rent_monthly": "14000/month",
+      "type": "working professionals",
+      "location": "Mumbai, Powai",
+      "longitude": 72.9081,
+      "latitude": 19.1197,
+      "rating": 4.7,
+      "reviews": "Modern studio with all amenities. Great for professionals. Excellent location.",
+      "features": ["AC", "Kitchen", "Wi-Fi", "Gym"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Powai Metro (500m)",
+        "nearest_railway": "Andheri Railway Station (8km)",
+        "airport": "Mumbai Airport (10km)"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Hostel Style Bunk Room",
+      "image_url": "https://images.pexels.com/photos/1457844/pexels-photo-1457844.jpeg",
+      "rent_monthly": "4200/month",
+      "type": "students",
+      "location": "Delhi, Karol Bagh",
+      "longitude": 77.1905,
+      "latitude": 28.6519,
+      "rating": 3.7,
+      "reviews": "Good for students on tight budget. Basic facilities available.",
+      "features": ["Wi-Fi", "Common bathroom", "Mess"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Karol Bagh Metro (800m)",
+        "nearest_railway": "New Delhi Railway Station (3km)",
+        "airport": "IGI Airport (10km)"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Deluxe Single Room",
+      "image_url": "https://images.pexels.com/photos/1454807/pexels-photo-1454807.jpeg",
+      "rent_monthly": "10500/month",
+      "type": "working professionals",
+      "location": "Bangalore, Whitefield",
+      "longitude": 77.7499,
+      "latitude": 12.9698,
+      "rating": 4.4,
+      "reviews": "Excellent room in IT corridor. Good amenities and transportation.",
+      "features": ["AC", "Wi-Fi", "Parking", "Balcony"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Whitefield Metro (1km)",
+        "nearest_railway": "Bangalore City Railway Station (25km)",
+        "airport": "Kempegowda Airport (18km)"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Cozy Double Room",
+      "image_url": "https://images.pexels.com/photos/1571464/pexels-photo-1571464.jpeg",
+      "rent_monthly": "8500/month",
+      "type": "students",
+      "location": "Pune, Viman Nagar",
+      "longitude": 73.9132,
+      "latitude": 18.5679,
+      "rating": 4.2,
+      "reviews": "Good location near airport. Suitable for students and professionals.",
+      "features": ["AC", "Wi-Fi", "Wardrobe"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Viman Nagar Metro (2km)",
+        "nearest_railway": "Pune Railway Station (12km)",
+        "airport": "Pune Airport (5km)"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Spacious Family Room",
+      "image_url": "https://images.pexels.com/photos/1571465/pexels-photo-1571465.jpeg",
+      "rent_monthly": "18500/month",
+      "type": "family",
+      "location": "Chennai, Velachery",
+      "longitude": 80.2201,
+      "latitude": 12.9756,
+      "rating": 4.5,
+      "reviews": "Perfect for families. Good connectivity and safe environment.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Velachery Metro (1km)",
+        "nearest_railway": "Chennai Central (15km)",
+        "airport": "Chennai Airport (20km)"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Modern Triple Sharing",
+      "image_url": "https://images.pexels.com/photos/1457846/pexels-photo-1457846.jpeg",
+      "rent_monthly": "6000/month",
+      "type": "students",
+      "location": "Hyderabad, Ameerpet",
+      "longitude": 78.4480,
+      "latitude": 17.4374,
+      "rating": 4.0,
+      "reviews": "Good for students. Close to coaching centers and colleges.",
+      "features": ["Wi-Fi", "Study table", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Ameerpet Metro (500m)",
+        "nearest_railway": "Secunderabad Railway Station (8km)",
+        "airport": "Hyderabad Airport (20km)"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Executive Single Room",
+      "image_url": "https://images.pexels.com/photos/1571466/pexels-photo-1571466.jpeg",
+      "rent_monthly": "13000/month",
+      "type": "working professionals",
+      "location": "Mumbai, Malad West",
+      "longitude": 72.8406,
+      "latitude": 19.1875,
+      "rating": 4.6,
+      "reviews": "Premium room with excellent amenities. Great for professionals.",
+      "features": ["AC", "Wi-Fi", "Gym", "Swimming pool"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Malad Metro (2km)",
+        "nearest_railway": "Malad Railway Station (1km)",
+        "airport": "Mumbai Airport (8km)"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Student Friendly Room",
+      "image_url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+      "rent_monthly": "5800/month",
+      "type": "students",
+      "location": "Delhi, Rajouri Garden",
+      "longitude": 77.1256,
+      "latitude": 28.6464,
+      "rating": 3.8,
+      "reviews": "Affordable and close to metro. Good for students.",
+      "features": ["Wi-Fi", "Study area", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Rajouri Garden Metro (300m)",
+        "nearest_railway": "New Delhi Railway Station (8km)",
+        "airport": "IGI Airport (12km)"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Luxury Double Room",
+      "image_url": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+      "rent_monthly": "16000/month",
+      "type": "working professionals",
+      "location": "Bangalore, Indiranagar",
+      "longitude": 77.6412,
+      "latitude": 12.9719,
+      "rating": 4.8,
+      "reviews": "Premium location with all modern facilities. Excellent connectivity.",
+      "features": ["AC", "Wi-Fi", "Parking", "Gym"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Indiranagar Metro (1km)",
+        "nearest_railway": "Bangalore City Railway Station (8km)",
+        "airport": "Kempegowda Airport (10km)"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Affordable Bunk Room",
+      "image_url": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg",
+      "rent_monthly": "4800/month",
+      "type": "students",
+      "location": "Pune, Katraj",
+      "longitude": 73.8667,
+      "latitude": 18.4592,
+      "rating": 3.5,
+      "reviews": "Budget-friendly option. Basic amenities available.",
+      "features": ["Wi-Fi", "Common bathroom", "Mess"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Katraj Metro (2km)",
+        "nearest_railway": "Pune Railway Station (15km)",
+        "airport": "Pune Airport (25km)"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Comfortable Family Suite",
+      "image_url": "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg",
+      "rent_monthly": "22000/month",
+      "type": "family",
+      "location": "Chennai, OMR",
+      "longitude": 80.2469,
+      "latitude": 12.8406,
+      "rating": 4.4,
+      "reviews": "Spacious and well-maintained. Good for families with children.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking", "Security"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "OMR Metro (3km)",
+        "nearest_railway": "Chennai Central (25km)",
+        "airport": "Chennai Airport (25km)"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Modern Single Room",
+      "image_url": "https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg",
+      "rent_monthly": "9200/month",
+      "type": "working professionals",
+      "location": "Hyderabad, Madhapur",
+      "longitude": 78.3912,
+      "latitude": 17.4484,
+      "rating": 4.3,
+      "reviews": "Great location in HITEC city. Perfect for IT professionals.",
+      "features": ["AC", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Madhapur Metro (1km)",
+        "nearest_railway": "Secunderabad Railway Station (15km)",
+        "airport": "Hyderabad Airport (20km)"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Shared Student Room",
+      "image_url": "https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg",
+      "rent_monthly": "5200/month",
+      "type": "students",
+      "location": "Mumbai, Thane",
+      "longitude": 72.9781,
+      "latitude": 19.2183,
+      "rating": 3.9,
+      "reviews": "Good connectivity to Mumbai. Affordable for students.",
+      "features": ["Wi-Fi", "Study table", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Thane Metro (2km)",
+        "nearest_railway": "Thane Railway Station (1km)",
+        "airport": "Mumbai Airport (35km)"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Premium Studio",
+      "image_url": "https://images.pexels.com/photos/271696/pexels-photo-271696.jpeg",
+      "rent_monthly": "15500/month",
+      "type": "working professionals",
+      "location": "Delhi, Gurgaon",
+      "longitude": 77.0266,
+      "latitude": 28.4595,
+      "rating": 4.7,
+      "reviews": "Modern studio in millennium city. Excellent for professionals.",
+      "features": ["AC", "Kitchen", "Wi-Fi", "Gym"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Gurgaon Metro (2km)",
+        "nearest_railway": "New Delhi Railway Station (25km)",
+        "airport": "IGI Airport (20km)"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Budget Triple Room",
+      "image_url": "https://images.pexels.com/photos/271672/pexels-photo-271672.jpeg",
+      "rent_monthly": "4600/month",
+      "type": "students",
+      "location": "Bangalore, Jayanagar",
+      "longitude": 77.5833,
+      "latitude": 12.9279,
+      "rating": 3.8,
+      "reviews": "Central location with good transport connectivity.",
+      "features": ["Wi-Fi", "Common bathroom", "Study area"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Jayanagar Metro (1km)",
+        "nearest_railway": "Bangalore City Railway Station (6km)",
+        "airport": "Kempegowda Airport (15km)"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Deluxe Double Room",
+      "image_url": "https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg",
+      "rent_monthly": "11500/month",
+      "type": "working professionals",
+      "location": "Pune, Baner",
+      "longitude": 73.7794,
+      "latitude": 18.5590,
+      "rating": 4.5,
+      "reviews": "Excellent location near IT parks. Modern amenities.",
+      "features": ["AC", "Wi-Fi", "Parking", "Balcony"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Baner Metro (1.5km)",
+        "nearest_railway": "Pune Railway Station (15km)",
+        "airport": "Pune Airport (18km)"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Family Apartment Room",
+      "image_url": "https://images.pexels.com/photos/271650/pexels-photo-271650.jpeg",
+      "rent_monthly": "19000/month",
+      "type": "family",
+      "location": "Chennai, Mylapore",
+      "longitude": 80.2669,
+      "latitude": 13.0339,
+      "rating": 4.2,
+      "reviews": "Traditional area with modern amenities. Good for families.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Mylapore Metro (2km)",
+        "nearest_railway": "Chennai Central (8km)",
+        "airport": "Chennai Airport (12km)"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Modern Hostel Room",
+      "image_url": "https://images.pexels.com/photos/271647/pexels-photo-271647.jpeg",
+      "rent_monthly": "6800/month",
+      "type": "students",
+      "location": "Hyderabad, Nizampet",
+      "longitude": 78.3881,
+      "latitude": 17.5081,
+      "rating": 4.1,
+      "reviews": "Well-maintained hostel with good facilities.",
+      "features": ["Wi-Fi", "Mess", "Study hall"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Nizampet Metro (2km)",
+        "nearest_railway": "Secunderabad Railway Station (25km)",
+        "airport": "Hyderabad Airport (30km)"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Executive Suite",
+      "image_url": "https://images.pexels.com/photos/271646/pexels-photo-271646.jpeg",
+      "rent_monthly": "17500/month",
+      "type": "working professionals",
+      "location": "Mumbai, Goregaon East",
+      "longitude": 72.8526,
+      "latitude": 19.1663,
+      "rating": 4.6,
+      "reviews": "Premium accommodation with excellent amenities.",
+      "features": ["AC", "Wi-Fi", "Gym", "Swimming pool"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Goregaon Metro (2km)",
+        "nearest_railway": "Goregaon Railway Station (1km)",
+        "airport": "Mumbai Airport (12km)"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Cozy Student Room",
+      "image_url": "https://images.pexels.com/photos/271645/pexels-photo-271645.jpeg",
+      "rent_monthly": "5900/month",
+      "type": "students",
+      "location": "Delhi, Pitampura",
+      "longitude": 77.1311,
+      "latitude": 28.6942,
+      "rating": 3.7,
+      "reviews": "Good for students. Close to coaching centers.",
+      "features": ["Wi-Fi", "Study table", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Pitampura Metro (800m)",
+        "nearest_railway": "New Delhi Railway Station (12km)",
+        "airport": "IGI Airport (15km)"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Luxury Single Room",
+      "image_url": "https://images.pexels.com/photos/271644/pexels-photo-271644.jpeg",
+      "rent_monthly": "12800/month",
+      "type": "working professionals",
+      "location": "Bangalore, JP Nagar",
+      "longitude": 77.5946,
+      "latitude": 12.9081,
+      "rating": 4.4,
+      "reviews": "Well-furnished room in prime location.",
+      "features": ["AC", "Wi-Fi", "Parking", "Wardrobe"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "JP Nagar Metro (1km)",
+        "nearest_railway": "Bangalore City Railway Station (8km)",
+        "airport": "Kempegowda Airport (12km)"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Shared Bunk Room",
+      "image_url": "https://images.pexels.com/photos/271641/pexels-photo-271641.jpeg",
+      "rent_monthly": "4300/month",
+      "type": "students",
+      "location": "Pune, Aundh",
+      "longitude": 73.8067,
+      "latitude": 18.5595,
+      "rating": 3.6,
+      "reviews": "Affordable option with basic amenities.",
+      "features": ["Wi-Fi", "Common bathroom", "Laundry"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Aundh Metro (1km)",
+        "nearest_railway": "Pune Railway Station (12km)",
+        "airport": "Pune Airport (22km)"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Premium Family Room",
+      "image_url": "https://images.pexels.com/photos/271640/pexels-photo-271640.jpeg",
+      "rent_monthly": "21000/month",
+      "type": "family",
+      "location": "Chennai, Nungambakkam",
+      "longitude": 80.2432,
+      "latitude": 13.0594,
+      "rating": 4.5,
+      "reviews": "Central location with excellent connectivity.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking", "Security"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Nungambakkam Metro (1km)",
+        "nearest_railway": "Chennai Central (5km)",
+        "airport": "Chennai Airport (10km)"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Modern Double Room",
+      "image_url": "https://images.pexels.com/photos/271638/pexels-photo-271638.jpeg",
+      "rent_monthly": "8800/month",
+      "type": "working professionals",
+      "location": "Hyderabad, Miyapur",
+      "longitude": 78.3587,
+      "latitude": 17.4948,
+      "rating": 4.2,
+      "reviews": "Good connectivity to IT corridor. Modern amenities.",
+      "features": ["AC", "Wi-Fi", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Miyapur Metro (1km)",
+        "nearest_railway": "Secunderabad Railway Station (20km)",
+        "airport": "Hyderabad Airport (28km)"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Student Hostel Room",
+      "image_url": "https://images.pexels.com/photos/271637/pexels-photo-271637.jpeg",
+      "rent_monthly": "5400/month",
+      "type": "students",
+      "location": "Mumbai, Kandivali East",
+      "longitude": 72.8682,
+      "latitude": 19.2095,
+      "rating": 3.8,
+      "reviews": "Good for students. Affordable with basic facilities.",
+      "features": ["Wi-Fi", "Study area", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Kandivali Metro (2km)",
+        "nearest_railway": "Kandivali Railway Station (1km)",
+        "airport": "Mumbai Airport (18km)"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Deluxe Studio",
+      "image_url": "https://images.pexels.com/photos/271636/pexels-photo-271636.jpeg",
+      "rent_monthly": "16500/month",
+      "type": "working professionals",
+      "location": "Delhi, Noida",
+      "longitude": 77.3910,
+      "latitude": 28.5355,
+      "rating": 4.7,
+      "reviews": "Modern studio with all amenities. Great for professionals.",
+      "features": ["AC", "Kitchen", "Wi-Fi", "Gym"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Noida Metro (2km)",
+        "nearest_railway": "New Delhi Railway Station (20km)",
+        "airport": "IGI Airport (25km)"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Budget Double Room",
+      "image_url": "https://images.pexels.com/photos/271635/pexels-photo-271635.jpeg",
+      "rent_monthly": "6200/month",
+      "type": "students",
+      "location": "Bangalore, Marathahalli",
+      "longitude": 77.6977,
+      "latitude": 12.9591,
+      "rating": 3.9,
+      "reviews": "Good location near tech parks. Affordable for students.",
+      "features": ["Wi-Fi", "Wardrobe", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Marathahalli Metro (1.5km)",
+        "nearest_railway": "Bangalore City Railway Station (12km)",
+        "airport": "Kempegowda Airport (16km)"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Comfortable Single Room",
+      "image_url": "https://images.pexels.com/photos/271634/pexels-photo-271634.jpeg",
+      "rent_monthly": "10200/month",
+      "type": "working professionals",
+      "location": "Pune, Wakad",
+      "longitude": 73.7680,
+      "latitude": 18.5978,
+      "rating": 4.3,
+      "reviews": "Good connectivity to IT parks. Well-maintained.",
+      "features": ["AC", "Wi-Fi", "Parking", "Balcony"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Wakad Metro (1km)",
+        "nearest_railway": "Pune Railway Station (18km)",
+        "airport": "Pune Airport (20km)"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Spacious Family Suite",
+      "image_url": "https://images.pexels.com/photos/271633/pexels-photo-271633.jpeg",
+      "rent_monthly": "23000/month",
+      "type": "family",
+      "location": "Chennai, Anna Nagar",
+      "longitude": 80.2088,
+      "latitude": 13.0850,
+      "rating": 4.6,
+      "reviews": "Premium location with excellent amenities for families.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking", "Security"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Anna Nagar Metro (1km)",
+        "nearest_railway": "Chennai Central (10km)",
+        "airport": "Chennai Airport (15km)"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Modern Triple Room",
+      "image_url": "https://images.pexels.com/photos/271632/pexels-photo-271632.jpeg",
+      "rent_monthly": "5700/month",
+      "type": "students",
+      "location": "Hyderabad, Begumpet",
+      "longitude": 78.4744,
+      "latitude": 17.4399,
+      "rating": 4.0,
+      "reviews": "Central location with good transport connectivity.",
+      "features": ["Wi-Fi", "Study table", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Begumpet Metro (500m)",
+        "nearest_railway": "Secunderabad Railway Station (5km)",
+        "airport": "Hyderabad Airport (8km)"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Premium Double Room",
+      "image_url": "https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg",
+      "rent_monthly": "13500/month",
+      "type": "working professionals",
+      "location": "Mumbai, Vikhroli East",
+      "longitude": 72.9301,
+      "latitude": 19.1068,
+      "rating": 4.5,
+      "reviews": "Excellent location with modern amenities.",
+      "features": ["AC", "Wi-Fi", "Gym", "Parking"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Vikhroli Metro (2km)",
+        "nearest_railway": "Vikhroli Railway Station (1km)",
+        "airport": "Mumbai Airport (15km)"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Affordable Hostel Room",
+      "image_url": "https://images.pexels.com/photos/271630/pexels-photo-271630.jpeg",
+      "rent_monthly": "4900/month",
+      "type": "students",
+      "location": "Delhi, Janakpuri",
+      "longitude": 77.0815,
+      "latitude": 28.6219,
+      "rating": 3.5,
+      "reviews": "Budget-friendly option. Basic amenities available.",
+      "features": ["Wi-Fi", "Common bathroom", "Mess"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Janakpuri Metro (1km)",
+        "nearest_railway": "New Delhi Railway Station (15km)",
+        "airport": "IGI Airport (8km)"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Executive Single Room",
+      "image_url": "https://images.pexels.com/photos/271629/pexels-photo-271629.jpeg",
+      "rent_monthly": "11800/month",
+      "type": "working professionals",
+      "location": "Bangalore, HSR Layout",
+      "longitude": 77.6389,
+      "latitude": 12.9116,
+      "rating": 4.4,
+      "reviews": "Premium location with excellent connectivity.",
+      "features": ["AC", "Wi-Fi", "Parking", "Wardrobe"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "HSR Layout Metro (1km)",
+        "nearest_railway": "Bangalore City Railway Station (12km)",
+        "airport": "Kempegowda Airport (18km)"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Student Sharing Room",
+      "image_url": "https://images.pexels.com/photos/271628/pexels-photo-271628.jpeg",
+      "rent_monthly": "5100/month",
+      "type": "students",
+      "location": "Pune, Warje",
+      "longitude": 73.8022,
+      "latitude": 18.4839,
+      "rating": 3.8,
+      "reviews": "Good for students. Affordable with decent facilities.",
+      "features": ["Wi-Fi", "Study area", "Common kitchen"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Warje Metro (2km)",
+        "nearest_railway": "Pune Railway Station (10km)",
+        "airport": "Pune Airport (15km)"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Luxury Family Room",
+      "image_url": "https://images.pexels.com/photos/271627/pexels-photo-271627.jpeg",
+      "rent_monthly": "24000/month",
+      "type": "family",
+      "location": "Chennai, Besant Nagar",
+      "longitude": 80.2667,
+      "latitude": 13.0007,
+      "rating": 4.7,
+      "reviews": "Premium beachside location. Excellent for families.",
+      "features": ["Kitchen", "AC", "Wi-Fi", "Parking", "Security"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Besant Nagar Metro (2km)",
+        "nearest_railway": "Chennai Central (15km)",
+        "airport": "Chennai Airport (18km)"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Modern Professional Room",
+      "image_url": "https://images.pexels.com/photos/271626/pexels-photo-271626.jpeg",
+      "rent_monthly": "9800/month",
+      "type": "working professionals",
+      "location": "Hyderabad, Kondapur",
+      "longitude": 78.3648,
+      "latitude": 17.4647,
+      "rating": 4.3,
+      "reviews": "Great location in IT corridor. Modern amenities.",
+      "features": ["AC", "Wi-Fi", "Parking", "Gym"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Kondapur Metro (1km)",
+        "nearest_railway": "Secunderabad Railway Station (18km)",
+        "airport": "Hyderabad Airport (22km)"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Cozy Bunk Room",
+      "image_url": "https://images.pexels.com/photos/271625/pexels-photo-271625.jpeg",
+      "rent_monthly": "4400/month",
+      "type": "students",
+      "location": "Mumbai, Borivali East",
+      "longitude": 72.8567,
+      "latitude": 19.2307,
+      "rating": 3.6,
+      "reviews": "Budget-friendly option for students. Basic amenities.",
+      "features": ["Wi-Fi", "Common bathroom", "Laundry"],
+      "availability": "Immediate",
+      "connectivity": {
+        "nearest_metro": "Borivali Metro (2km)",
+        "nearest_railway": "Borivali Railway Station (1km)",
+        "airport": "Mumbai Airport (25km)"
+      }
+    }
+]
