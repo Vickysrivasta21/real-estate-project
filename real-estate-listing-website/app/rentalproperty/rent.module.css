@@ -1,4 +1,104 @@
 
+.filterpanel {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.filterpanel form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
+
+.rentfilter, .rating, .sort, .locationfilter {
+    flex: 1;
+    min-width: 200px;
+}
+
+.rentfilter label, .rating label, .sort label, .locationfilter label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.rentfilter select, .rating select, .sort select, .locationfilter select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 0.9rem;
+    color: #444;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px;
+}
+
+.rentfilter select:focus, .rating select:focus, .sort select:focus, .locationfilter select:focus {
+    outline: none;
+    border-color: rgb(103, 170, 238);
+    box-shadow: 0 0 0 3px rgba(103, 170, 238, 0.2);
+}
+
+.button {
+    flex: 0 0 auto;
+}
+
+.button button {
+    background-color: rgb(103, 170, 238);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button button:hover {
+    background-color: rgb(81, 154, 226);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.button button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 992px) {
+    .rentfilter, .rating, .sort, .locationfilter {
+        min-width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .filterpanel form {
+        flex-direction: column;
+        gap: 1.2em;
+    }
+    
+    .rentfilter, .rating, .sort, .locationfilter, .button {
+        width: 100%;
+    }
+    
+    .button button {
+        width: 100%;
+    }
+}
+
 
 .maincontainer {
     display: grid;
@@ -20,13 +120,13 @@
 }
 
 .cont:hover {
-    transform: translateY(-5px); /* Lift card slightly on hover */
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* More pronounced shadow on hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
 }
 
 .image {
     width: 100%;
-    height: 200px; /* Fixed height for the image container */
+    height: 200px; 
     overflow: hidden;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -35,25 +135,25 @@
 .image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures image covers the area without distortion */
-    transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .cont:hover .image img {
-    transform: scale(1.05); /* Slight zoom on image hover */
+    transform: scale(1.05);
 }
 
 .rating {
     font-size: 1.1em;
-    color: #ffc107; /* Star color */
+    color: #ffc107; 
     font-weight: 600;
 }
 
 .title {
     padding: 0.25rem 1rem;
-    font-size: 1.2em; /* Larger font for title */
-    font-weight: 700; /* Bold title */
-    color: #333; /* Darker text for readability */
+    font-size: 1.2em; 
+    font-weight: 700; 
+    color: #333; 
     margin-bottom: 0.5rem;
 }
 
@@ -62,7 +162,7 @@
 .avail {
     padding: 0.1rem 1rem;
     font-size: 0.95em;
-    color: #787777; /* Slightly lighter text for details */
+    color: #787777; 
     margin-bottom: 0.3rem;
 }
 .moredetails {
@@ -70,8 +170,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    border-top: 1px solid #eee; /* Subtle separator line */
-    margin-top: auto; /* Pushes content to the bottom */
+    border-top: 1px solid #eee; 
+    margin-top: auto; 
 }
 .middle{
     display: flex;
@@ -88,17 +188,17 @@
 
 .viewdetails,
 .contact {
-    flex: 1; /* Distribute space evenly */
+    flex: 1; 
     text-align: center;
 }
 
 .viewdetails a,
 .contact a {
-    display: block; /* Make the whole area clickable */
+    display: block; 
     padding: 0.75rem 0.5rem;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 8px; /* Slightly rounded buttons */
+    border-radius: 8px; 
     transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,background-color 0.2s ease-in;
 }
 
@@ -120,10 +220,10 @@
 }
 
 .contact a:hover {
-    background-color: #5a6268; /* Darker on hover */
+    background-color: #5a6268; 
 }
 
-/* Basic Media Queries for better responsiveness on smaller screens */
+
 @media (max-width: 768px) {
     .maincontainer {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
