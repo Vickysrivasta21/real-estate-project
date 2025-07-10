@@ -112,38 +112,52 @@ export default function EmptyPlotsPage() {
       <div className={styles.grid}>
         {filteredPlots.map((plot) => (
           <div key={plot.id} className={styles.card}>
-            <Image
-              src={plot.image || "/fallback.jpg"}
+            <img
+              src={plot.image}
+              onError={(e) => (e.currentTarget.src = "/fallback.jpg")}
               alt="Plot"
               width={400}
               height={200}
               className={styles.cardImage}
-              onError={(e) => {
-                e.target.onerror = null;
-                e.target.src = "/fallback.jpg";
-              }}
             />
             <div className={styles.cardContent}>
               <h2>{plot.title}</h2>
               <p>{plot.description}</p>
-              <p>
-                <strong>Location:</strong> {plot.location}
-              </p>
-              <p>
-                <strong>Area:</strong> {plot.area} sq ft
-              </p>
-              <p>
-                <strong>Price:</strong> ₹{plot.price.toLocaleString()}
-              </p>
-              <p>
-                <strong>Type:</strong> {plot.type}
-              </p>
-              <p>
-                <strong>Rating:</strong> {plot.rating} / 5
-              </p>
-              <p>
-                <em>{plot.reviews?.[0]}</em>
-              </p>
+              
+              <div className={styles.propertyDetails}>
+                <div className={styles.propertyDetail}>
+                  <strong>Location:</strong> {plot.location}
+                </div>
+                <div className={styles.propertyDetail}>
+                  <strong>Area:</strong> {plot.area} sq ft
+                </div>
+                <div className={styles.propertyDetail}>
+                  <strong>Price:</strong> ₹{plot.price.toLocaleString()}
+                </div>
+                <div className={styles.propertyDetail}>
+                  <strong>Type:</strong> {plot.type}
+                </div>
+              </div>
+              
+              <div className={styles.rating}>
+                <strong>Rating:</strong> 
+                <span className={styles.ratingValue}>{plot.rating}/5</span>
+              </div>
+              
+              {plot.reviews?.[0] && (
+                <p>
+                  <em>{plot.reviews[0]}</em>
+                </p>
+              )}
+              
+              <div className={styles.buttonContainer}>
+                <button className={`${styles.button} ${styles.primaryButton}`}>
+                  View Details
+                </button>
+                <button className={`${styles.button} ${styles.secondaryButton}`}>
+                  Contact Agent
+                </button>
+              </div>
             </div>
           </div>
         ))}
