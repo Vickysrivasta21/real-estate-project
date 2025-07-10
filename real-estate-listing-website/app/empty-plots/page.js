@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { GoogleMap, Marker, LoadScript } from "@react-google-maps/api";
+import styles from "./EmptyPlots.module.css";
 
 export default function EmptyPlotsPage() {
   const [plots, setPlots] = useState([]);
@@ -16,7 +16,7 @@ export default function EmptyPlotsPage() {
     "Factory Land",
     "Industrial Area",
     "Government Land",
-    "Commercial Plot"
+    "Commercial Plot",
   ];
 
   const locations = [
@@ -26,11 +26,11 @@ export default function EmptyPlotsPage() {
     "Hyderabad",
     "Pune",
     "Chennai",
-    "Kolkata"
+    "Kolkata",
   ];
 
   useEffect(() => {
-    fetch("/empty_plots_with_images.json")
+    fetch("/empty_plots.json")
       .then((res) => res.json())
       .then((data) => {
         setPlots(data);
@@ -64,97 +64,90 @@ export default function EmptyPlotsPage() {
   }, [plots, selectedType, selectedLocation, sortBy]);
 
   return (
-    <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
-      <section className="px-6 py-8 max-w-screen-xl mx-auto">
-        <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-10">Explore Empty Plots</h1>
+    <div className={styles.container}>
+      <h1 className={styles.pageTitle}>Explore Empty Plots</h1>
 
-        <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-10">
-          <div className="flex flex-wrap gap-6">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Type</label>
-              <select
-                value={selectedType}
-                onChange={(e) => setSelectedType(e.target.value)}
-                className="border border-gray-300 rounded-md px-4 py-2 shadow-sm focus:outline-none focus:ring focus:ring-blue-200"
-              >
-                <option value="">All</option>
-                {plotTypes.map((type, idx) => (
-                  <option key={idx} value={type}>{type}</option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Location</label>
-              <select
-                value={selectedLocation}
-                onChange={(e) => setSelectedLocation(e.target.value)}
-                className="border border-gray-300 rounded-md px-4 py-2 shadow-sm focus:outline-none focus:ring focus:ring-blue-200"
-              >
-                <option value="">All</option>
-                {locations.map((loc, idx) => (
-                  <option key={idx} value={loc}>{loc}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Sort by</label>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="border border-gray-300 rounded-md px-4 py-2 shadow-sm focus:outline-none focus:ring focus:ring-blue-200"
-            >
-              <option value="">-- Select --</option>
-              <option value="price">Price</option>
-              <option value="area">Area</option>
-              <option value="type">Type</option>
-            </select>
-          </div>
+      <div className={styles.filters}>
+        <div>
+          <label>Type:</label>
+          <select
+            value={selectedType}
+            onChange={(e) => setSelectedType(e.target.value)}
+          >
+            <option value="">All</option>
+            {plotTypes.map((type, idx) => (
+              <option key={idx} value={type}>
+                {type}
+              </option>
+            ))}
+          </select>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredPlots.map((plot) => (
-            <div
-              key={plot.id}
-              className="bg-white border border-gray-200 rounded-xl shadow-md hover:shadow-lg transition duration-200 overflow-hidden"
-            >
-              <Image
-                src={plot.image || "/fallback.jpg"}
-                alt="Plot Image"
-                width={500}
-                height={250}
-                className="w-full h-[200px] object-cover"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "/fallback.jpg";
-                }}
-              />
-              <div className="p-4 space-y-2">
-                <h2 className="text-lg font-semibold text-gray-800">{plot.title}</h2>
-                <p className="text-sm text-gray-500">{plot.description}</p>
-                <div className="text-sm text-gray-600">
-                  <p><strong>📍 Location:</strong> {plot.location}</p>
-                  <p><strong>📐 Area:</strong> {plot.area} sq ft</p>
-                  <p><strong>💰 Price:</strong> ₹{plot.price.toLocaleString()}</p>
-                  <p><strong>⭐ Rating:</strong> {plot.rating} / 5</p>
-                  <p className="italic">📝 {plot.reviews?.[0]}</p>
-                </div>
-                <div className="mt-3">
-                  <GoogleMap
-                    mapContainerStyle={{ height: "200px", width: "100%" }}
-                    center={{ lat: plot.lat, lng: plot.lng }}
-                    zoom={15}
-                  >
-                    <Marker position={{ lat: plot.lat, lng: plot.lng }} />
-                  </GoogleMap>
-                </div>
-              </div>
-            </div>
-          ))}
+        <div>
+          <label>Location:</label>
+          <select
+            value={selectedLocation}
+            onChange={(e) => setSelectedLocation(e.target.value)}
+          >
+            <option value="">All</option>
+            {locations.map((loc, idx) => (
+              <option key={idx} value={loc}>
+                {loc}
+              </option>
+            ))}
+          </select>
         </div>
-      </section>
-    </LoadScript>
+
+        <div>
+          <label>Sort by:</label>
+          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+            <option value="">None</option>
+            <option value="price">Price</option>
+            <option value="area">Area</option>
+            <option value="type">Type</option>
+          </select>
+        </div>
+      </div>
+
+      <div className={styles.grid}>
+        {filteredPlots.map((plot) => (
+          <div key={plot.id} className={styles.card}>
+            <Image
+              src={plot.image || "/fallback.jpg"}
+              alt="Plot"
+              width={400}
+              height={200}
+              className={styles.cardImage}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "/fallback.jpg";
+              }}
+            />
+            <div className={styles.cardContent}>
+              <h2>{plot.title}</h2>
+              <p>{plot.description}</p>
+              <p>
+                <strong>Location:</strong> {plot.location}
+              </p>
+              <p>
+                <strong>Area:</strong> {plot.area} sq ft
+              </p>
+              <p>
+                <strong>Price:</strong> ₹{plot.price.toLocaleString()}
+              </p>
+              <p>
+                <strong>Type:</strong> {plot.type}
+              </p>
+              <p>
+                <strong>Rating:</strong> {plot.rating} / 5
+              </p>
+              <p>
+                <em>{plot.reviews?.[0]}</em>
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
-} 
+}
