@@ -158,7 +158,7 @@ return (
               <div className={style.avail}>Availability : {ele.availability}</div>
               <div className={style.moredetails}>
                 <div className={style.viewdetails}>
-                  <Link target='_blank' href={`/rentprop/${ele._id}`}>view details</Link>
+                  <Link target='_blank' href={`/rentalproperty/${ele._id}`}>view details</Link>
                 </div>
                 <div className={style.contact}>
                   <Link target='_blank' href="/" >Contact</Link>
