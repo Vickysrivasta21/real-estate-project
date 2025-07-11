@@ -12,6 +12,7 @@ app.use("/api/user", require("./routes/userRoutes"));
 app.use("/api/properties",require("./routes/propertydetails"))//property details show karne ke liye
 app.use("/api/propertydetails",require("./routes/propertydetailsdynamic"))//koi specific property show karna kr liye
 app.use("/api/rentprop",require("./routes/rentprop"))//for rental property details
+app.use("/api/rentpropdetails",require("./routes/rentpropdynamic"))//for dynmaic rent prop details
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT} `);

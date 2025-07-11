@@ -7,6 +7,8 @@ const propertyschema = mongoose.Schema({
     image: String,
     type: String,
     area: String,
+    lat:Number,
+    lng:Number,
     bedrooms: Number,
     bathrooms: Number,
     parking: Boolean
