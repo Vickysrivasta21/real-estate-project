@@ -194,7 +194,7 @@
   font-size: 0.9rem;
 }
 
-/* Button container */
+
 .buttonContainer {
   display: flex;
   gap: 1rem;
@@ -202,7 +202,6 @@
   padding-top: 1rem;
 }
 
-/* Button styling */
 .button {
   flex: 1;
   padding: 0.75rem 1rem;
@@ -215,8 +214,11 @@
   transition: all 0.2s ease;
 }
 
+
 .primaryButton {
   background-color: #3498db;
+  color: white;
+  text-decoration: none;
   color: white;
 }
 
@@ -228,6 +230,7 @@
   background-color: white;
   color: #3498db;
   border: 1px solid #3498db;
+  text-decoration: none;
 }
 
 .secondaryButton:hover {

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./EmptyPlots.module.css";
+import Link from "next/link"
 
 export default function EmptyPlotsPage() {
   const [plots, setPlots] = useState([]);
@@ -30,7 +31,7 @@ export default function EmptyPlotsPage() {
   ];
 
   useEffect(() => {
-    fetch("/empty_plots.json")
+    fetch("http://localhost:5000/api/emptyplotdetails")
       .then((res) => res.json())
       .then((data) => {
         setPlots(data);
@@ -151,12 +152,8 @@ export default function EmptyPlotsPage() {
               )}
               
               <div className={styles.buttonContainer}>
-                <button className={`${styles.button} ${styles.primaryButton}`}>
-                  View Details
-                </button>
-                <button className={`${styles.button} ${styles.secondaryButton}`}>
-                  Contact Agent
-                </button>
+                <Link href={"/"} className={`${styles.button} ${styles.primaryButton}`}>View Details</Link>
+                <Link href={"/"} className={`${styles.button} ${styles.secondaryButton}`}>Contact Agent</Link>
               </div>
             </div>
           </div>
