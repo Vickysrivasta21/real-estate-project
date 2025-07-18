@@ -95,8 +95,7 @@
 }
 
 .type {
-  background: #2563eb;
-  color: white;
+  color: rgb(60, 58, 58);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.875rem;
