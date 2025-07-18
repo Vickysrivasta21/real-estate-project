@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import bg from '../components/backgroundMaincont.module.css'
 import { useForm } from "react-hook-form";
 
 const Propertypage = () => {
@@ -193,7 +194,10 @@ const Propertypage = () => {
                   </div>
 
                   <div className="type-price">
-                    <div className="type">{ele.type}</div>
+                    <div className= {`type ${ele.type==="1BHK"?bg.first:""}
+                    ${ele.type==="2BHK"?bg.second:""}
+                    ${ele.type==="3BHK"?bg.third:""}
+                    ${ele.type==="4BHK"?bg.fourth:""}`}>{ele.type}</div>
                     <div className="price">{ele.price}</div>
                   </div>
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import style from './Maincont-landpage.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import bg from './backgroundMaincont.module.css'
 const Maincont = () => {
     const [arr, setarr] = useState([])
     const [arr2, setarr2] = useState([])
@@ -107,7 +107,7 @@ const Maincont = () => {
                 </div>
             </div>
             <div className={style.buyarray}>
-                <div className={style.heading}><h3>Quick Picks For you...</h3></div>
+                <div className={style.heading}><h3>Quick Picks For you</h3></div>
                 <div className={style.array}>
                     {
                         arr2 && arr2.map(ele => {
@@ -125,7 +125,11 @@ const Maincont = () => {
                                         </div>
                                         {/* <div className="id">{ele.id}</div> */}
                                         <div className={style.typeprice}>
-                                            <div className={style.type}>
+                                            <div className={`${style.type} 
+                                            ${ele.type==="1BHK"?bg.first:""}
+                                            ${ele.type==="2BHK"?bg.second:""}
+                                            ${ele.type==="3BHK"?bg.third:""}
+                                            ${ele.type==="4BHK"?bg.fourth:""}`}>
                                                 {ele.type}
                                             </div>
                                             <div className={style.price}>
@@ -152,7 +156,7 @@ const Maincont = () => {
                 </div>
             </div>
             <div className={style.rentarray}>
-                <div className={style.heading}><h3>Top Homes Available for Rent...</h3></div>
+                <div className={style.heading}><h3>Top Homes Available for Rent</h3></div>
                 <div className={style.array}>
                     {
                         arr3 && arr3.map(ele => {
@@ -170,7 +174,7 @@ const Maincont = () => {
                                         </div>
                                         {/* <div className="id">{ele.id}</div> */}
                                         <div className={style.typeprice}>
-                                            <div className={style.type}>
+                                            <div className={style.type1}>
                                                 {ele.type}
                                             </div>
                                             <div className={style.price}>
@@ -186,7 +190,7 @@ const Maincont = () => {
                                             <div className={style.parking}>{ele.availability}</div>
                                         </div>
                                         <div className={style.contact}>
-                                            <div className={style.view}><Link href={`/propertydetail/${ele._id}`}>view details</Link></div>
+                                            <div className={style.view}><Link target='_blank' href={`/rentalproperty/${ele._id}`}>view details</Link></div>
                                             <div className={style.agent}><Link href="/">contact agent</Link></div>
                                         </div>
                                     </div>

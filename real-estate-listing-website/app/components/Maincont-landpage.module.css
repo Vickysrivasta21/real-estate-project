@@ -145,13 +145,17 @@
 
 .heading {
   font-size: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 1rem;
   width: 90%;
   padding: 0 0.5rem;
   margin: 0.5rem auto;
 }
-
+.heading h3{
+  padding-left: 10px;
+  border-left:10px solid #7f32eb;
+  border-radius: 4px;
+}
 .array {
   display: flex;
   gap: 1rem;
@@ -226,8 +230,15 @@
 }
 
 .type {
-  background: #2563eb;
+  color: rgb(60, 58, 58);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.type1 {
   color: white;
+  background: #2563eb;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.875rem;
