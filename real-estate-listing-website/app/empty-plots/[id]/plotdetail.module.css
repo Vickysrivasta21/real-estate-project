@@ -1,0 +1,43 @@
+.maincontainer {
+  padding: 2rem;
+}
+
+.detailsMapContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cont {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.image img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.middle {
+  margin-top: 1rem;
+}
+
+.title, .price, .location, .area, .status {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #444;
+}
+
+.propertyDetailsMap {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
