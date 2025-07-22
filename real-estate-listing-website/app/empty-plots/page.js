@@ -152,7 +152,7 @@ export default function EmptyPlotsPage() {
               )}
               
               <div className={styles.buttonContainer}>
-                <Link href={"/"} className={`${styles.button} ${styles.primaryButton}`}>View Details</Link>
+                <Link target="_blank" href={`/empty-plots/${plot._id}`} className={`${styles.button} ${styles.primaryButton}`}>View Details</Link>
                 <Link href={"/"} className={`${styles.button} ${styles.secondaryButton}`}>Contact Agent</Link>
               </div>
             </div>

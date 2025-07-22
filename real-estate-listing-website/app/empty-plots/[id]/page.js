@@ -13,9 +13,10 @@ const EmptyPlotDetails = () => {
     useEffect(() => {
         const fetchPlot = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/emptyplotdetails/${id}`);
+                const res = await fetch(`http://localhost:5000/api/plotdetailsdynamic/${id}`);
                 const data = await res.json();
-                setPlot(data);
+                const plotdata = setprice(data)
+                setPlot(plotdata);
             } catch (err) {
                 console.error("Error fetching empty plot:", err);
             }
@@ -25,13 +26,13 @@ const EmptyPlotDetails = () => {
 
     useEffect(() => {
         if (plot) {
-            const map = L.map("plot-map").setView([plot.latitude, plot.longitude], 15);
+            const map = L.map("plot-map").setView([plot.lat, plot.lng], 15);
 
             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
-            L.marker([plot.latitude, plot.longitude], {
+            L.marker([plot.lat, plot.lng], {
                 icon: L.icon({
                     iconUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png",
                     shadowUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png",
@@ -44,6 +45,18 @@ const EmptyPlotDetails = () => {
         }
     }, [plot]);
 
+    function setprice(plots) {
+        let price = plots.price.toString()
+        let price1 = price.slice(0, 2)
+        if (price >= 100000 && price < 10000000) {
+            price = price1 + " " + "LAKHS"
+        }
+        else if (price >= 10000000 && price < 1000000000) {
+            price = price1 + " " + "CRORE"
+        }
+        return { ...plots, price }
+    }
+
     if (!plot) return <div>Loading...</div>;
 
     return (
@@ -52,7 +65,7 @@ const EmptyPlotDetails = () => {
                 <div className={style.cont}>
                     <div className={style.image}>
                         <Image
-                            src={plot.image_url}
+                            src={plot.image}
                             height={450}
                             width={600}
                             style={{ objectFit: 'cover' }}
