@@ -1,0 +1,29 @@
+{
+  "name": "real-estate-listing-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tailwind:init": "tailwindcss init -p",
+    "tailwind:build": "tailwindcss -i ./styles/globals.css -o ./styles/output.css --watch"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.59.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.3",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}
