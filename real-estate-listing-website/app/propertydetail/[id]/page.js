@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import styles from "./Property.module.css";
+import { fetchData } from "@/lib/api";
 
 const Map = dynamic(() => import("./Map"), { ssr: false });
 
@@ -14,7 +15,7 @@ const PropertyDetails = () => {
   useEffect(() => {
     const fetchProperty = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/propertydetails/${id}`);
+        const res = await fetchData(`/api/propertydetails/${id}`);
         const data = await res.json();
         setProperty(data);
       } catch (err) {

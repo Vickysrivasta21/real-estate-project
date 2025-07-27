@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { toast } from "react-toastify";
+import { fetchData } from "@/lib/api";
 
 export default function SignupPage() {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function SignupPage() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:5000/api/auth/signup", {
+      const res = await fetchData("/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

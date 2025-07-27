@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import L from "leaflet";
 import style from './plotdetail.module.css';
+import { fetchData } from "@/lib/api";
 
 const EmptyPlotDetails = () => {
     const { id } = useParams();
@@ -13,7 +14,7 @@ const EmptyPlotDetails = () => {
     useEffect(() => {
         const fetchPlot = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/plotdetailsdynamic/${id}`);
+                const res = await fetchData(`/api/plotdetailsdynamic/${id}`);
                 const data = await res.json();
                 const plotdata = setprice(data)
                 setPlot(plotdata);

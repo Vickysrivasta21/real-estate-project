@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import bg from '../components/backgroundMaincont.module.css'
 import { useForm } from "react-hook-form";
+import { fetchData } from "@/lib/api";
 
 const Propertypage = () => {
   const [data, setdata] = useState([]);
@@ -12,7 +13,7 @@ const Propertypage = () => {
 
   useEffect(() => {
     let data = async () => {
-      let property = await fetch("http://localhost:5000/api/properties");
+      let property = await fetchData("/api/properties");
       let res = await property.json();
       setdata(res);
       settempdata(res);

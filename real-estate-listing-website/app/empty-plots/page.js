@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./EmptyPlots.module.css";
 import Link from "next/link"
+import { fetchData } from "@/lib/api";
 
 export default function EmptyPlotsPage() {
   const [plots, setPlots] = useState([]);
@@ -31,7 +32,7 @@ export default function EmptyPlotsPage() {
   ];
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/emptyplotdetails")
+    fetchData("/api/emptyplotdetails")
       .then((res) => res.json())
       .then((data) => {
         setPlots(data);

@@ -15,7 +15,7 @@ app.use("/api/rentprop",require("./routes/rentprop"))//for rental property detai
 app.use("/api/rentpropdetails",require("./routes/rentpropdynamic"))//for dynmaic rent prop details
 app.use("/api/emptyplotdetails",require("./routes/emptyplots"))//for details of empty plots
 app.use("/api/plotdetailsdynamic",require("./routes/emptyplotsdynamic"))
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, '0.0.0.0' ,() => {
   console.log(`Server running on port ${PORT} `);
 });

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
+import { fetchData } from "@/lib/api";
 
 export default function DashboardPage() {
   const router = useRouter();
@@ -18,7 +19,7 @@ export default function DashboardPage() {
 
     const fetchUser = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/user/dashboard", {
+        const res = await fetchData("/api/user/dashboard", {
           headers: { Authorization: `Bearer ${token}` },
         });
         const data = await res.json();

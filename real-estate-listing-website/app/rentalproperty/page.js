@@ -6,13 +6,14 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import style from './rent.module.css'
 import { useForm } from 'react-hook-form';
+import { fetchData } from '@/lib/api';
 
 const Rent = () => {
   const [rent, getrent] = useState([])
   const [rent2, getrent2] = useState([])
   useEffect(() => {
     let getrentdata = async () => {
-      let getrental = await fetch("http://localhost:5000/api/rentprop")
+      let getrental = await fetchData("/api/rentprop")
       let data = await getrental.json()
       getrent(data)
       getrent2(data)

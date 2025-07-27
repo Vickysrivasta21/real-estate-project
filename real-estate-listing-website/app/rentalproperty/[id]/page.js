@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import L from "leaflet";
 import style from './rental.module.css'
+import { fetchData } from "@/lib/api";
 
 const PropertyDetails = () => {
     const { id } = useParams();
@@ -13,7 +14,7 @@ const PropertyDetails = () => {
     useEffect(() => {
         const fetchProperty = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/rentpropdetails/${id}`);
+                const res = await fetchData(`/api/rentpropdetails/${id}`);
                 const data = await res.json();
                 setProperty(data);
             } catch (err) {
@@ -66,7 +67,7 @@ const PropertyDetails = () => {
                         </div>
                         <div className={style.title}>{property.title}</div>
                         <div className={style.type}>preferred : {property.type}</div>
-                        <div className={style.location}>Location : {property.location} <Image src="/wired-flat-2569-logo-google-maps-hover-pinch.svg" width={20} height={20} style={{ objectFit: 'cover' }} /></div>
+                        <div className={style.location}>Location : {property.location} <Image src="/wired-flat-2569-logo-google-maps-hover-pinch.svg" width={20} height={20} style={{ objectFit: 'cover' }} alt="rent rooms photo" /></div>
                         <div className={style.avail}>Availability : {property.availability}</div>
                         <button onClick={() => setshow(!show)}>Show additional details</button>
                         <div className={show ? style.moredetails : style.hide}>
