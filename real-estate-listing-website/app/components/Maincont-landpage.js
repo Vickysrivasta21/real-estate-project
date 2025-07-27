@@ -5,6 +5,7 @@ import style from './Maincont-landpage.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import bg from './backgroundMaincont.module.css'
+import { fetchData } from '@/lib/api'
 const Maincont = () => {
     const [arr, setarr] = useState([])
     const [arr2, setarr2] = useState([])
@@ -12,7 +13,7 @@ const Maincont = () => {
 
     useEffect(() => {
         let getdata = async () => {
-            let data = await fetch("http://localhost:5000/api/properties")
+            let data = await fetchData("/api/properties")
             let res = await data.json()
             setarr(res)
             setarr2(res.filter(ele => {
@@ -22,7 +23,7 @@ const Maincont = () => {
                     return ele
                 }
             }))
-            let rentdata = await fetch("http://localhost:5000/api/rentprop")
+            let rentdata = await fetchData("/api/rentprop")
             let newres = await rentdata.json()
             setarr3(newres.filter(ele => {
                 if (ele.rating >= 3.5) {
