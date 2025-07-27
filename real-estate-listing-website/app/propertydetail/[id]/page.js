@@ -2,9 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
-import L from "leaflet";                
-import "leaflet/dist/leaflet.css";       
-import styles from "./Property.module.css"
+import dynamic from "next/dynamic";
+import styles from "./Property.module.css";
+
+const Map = dynamic(() => import("./Map"), { ssr: false });
 
 const PropertyDetails = () => {
   const { id } = useParams();
@@ -23,38 +24,20 @@ const PropertyDetails = () => {
     fetchProperty();
   }, [id]);
 
-  useEffect(() => {
-    if (property) {
-      const map = L.map("map").setView([property.lat, property.lng], 15);
-
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map);
-
-      L.marker([property.lat, property.lng], {
-        icon: L.icon({
-          iconUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png",
-          shadowUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png",
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41],
-        }),
-      }).addTo(map);
-    }
-  }, [property]);
-
   if (!property) return <div>Loading...</div>;
 
   return (
     <div className={styles.propertyDetailsContainer}>
       <div className={styles.propertyDetailsCard}>
         <div className={styles.propertyDetailsImage}>
-          <Image src={property.image} alt="Property image"
+          <Image
+            src={property.image}
+            alt="Property image"
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: '98.9%', height: 'auto' }} />
+            style={{ width: "98.9%", height: "auto" }}
+          />
         </div>
 
         <div className={styles.propertyDetailsTypePrice}>
@@ -66,9 +49,7 @@ const PropertyDetails = () => {
           <h1>{property.title}</h1>
         </div>
 
-        <div className="location">
-          Location: {property.location}
-        </div>
+        <div className="location">Location: {property.location}</div>
 
         <div className="features">
           <div className="size">Size: {property.size}</div>
@@ -80,9 +61,8 @@ const PropertyDetails = () => {
         </div>
       </div>
 
-      <div className={styles.propertyDetailsMap} id="map"></div>
+      {property.lat && property.lng && <Map lat={property.lat} lng={property.lng} className={styles.propertyDetailsMap} />}
     </div>
-
   );
 };
 
