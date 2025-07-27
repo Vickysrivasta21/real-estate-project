@@ -5,7 +5,15 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 dotenv.config();
 connectDB();
-app.use(cors());
+const allowedOrigins = [
+  "https://your-frontend-domain.up.railway.app",
+  "http://localhost:3000"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 app.use(express.json());
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
