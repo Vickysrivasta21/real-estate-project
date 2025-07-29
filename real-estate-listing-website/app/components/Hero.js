@@ -49,7 +49,7 @@ const Hero = () => {
           <h1>{typedText[0]}{currentLineIndex === 0 && <span className={style.cursor}>|</span>}</h1>
           <p>{typedText[1]}{currentLineIndex === 1 && <span className={style.cursor}>|</span>}</p>
           <p>{typedText[2]}{currentLineIndex === 2 && <span className={style.cursor}>|</span>}</p>
-          <Link href="/">
+          <Link href="/login">
             <button className={style.cta}>Get Started</button>
           </Link>
         </div>
